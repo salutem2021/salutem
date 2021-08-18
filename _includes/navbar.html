@@ -2,7 +2,7 @@
     <div class="container">
         <div class="navbar-brand">
             <a class="navbar-item" href="{{ site.baseurl }}/">
-                <img src="img/logo.png" alt="" width="50%" >
+                <img src="img/logo.png" alt="">
             </a>
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
                 <span aria-hidden="true"></span>
@@ -10,6 +10,11 @@
                 <span aria-hidden="true"></span>
             </a>
         </div>
+    </div>
+</div>
+<div class="navbar is-transparent">
+    <div class="container">
+
         <div class="navbar-menu" id="navMenu">
             <div class="navbar-end">
                 {% if site.authors %}
@@ -28,6 +33,18 @@
                 {% if site.authors %}
                 <a class="navbar-item" href="{{ site.baseurl }}/authors/">О НАС</a>
                 {% endif %}
+                <div class="navbar-end">
+                    {% if site.authors %}
+                    <a class="button is-primary" href="{{ site.baseurl }}/authors/">
+                       
+                            <span class="icon">
+                                <i class="fas fa-download"></i>
+                            </span>
+                            <span>ШОП</span>
+                        </a></a>
+                    {% endif %}
+
+                </div>
             </div>
         </div>
     </div>

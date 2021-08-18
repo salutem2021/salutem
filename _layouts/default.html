@@ -1,48 +1,187 @@
 <!doctype html>
 <html>
 {% include head.html %}
+
 <body>
-{% include navbar.html %}
+    {% include navbar.html %}
 
-{% unless page.hide_hero %}
+    {% unless page.hide_hero %}
     {% include hero.html %}
-    
-  
- 
-
-{% endunless %}
-
-<section class="section">
-    <div class="container">
-        {{ content }}
-    </div>
-</section>
-
-<section class="section" style="position: relative;">
-<div class="columns" >
-    <div class="column">
-      First column
-    </div>
-    <div class="column">
-      Second column
-    </div>
-    <div class="column">
-      Third column
-    </div>
-</div>
-
-</section>
 
 
-<hr/>
-<section class="section">
-    <div class="container">
-        <div class="has-text-centered">
-            <p> <a href="/">2020-2021 Salutem Group. Все права защищены</a></p>
+
+
+    {% endunless %}
+
+    <section class="section">
+        <div class="container">
+            {{ content }}
         </div>
-    </div>
-</section>
-<script src="{{ site.baseurl }}/assets/js/app.js" type="text/javascript"></script>
-</body>
-</html>
+    </section>
 
+    <section class="section" style="position: relative;">
+        <br />
+        <hr style="color: black;" />
+        <br />
+
+        <div class="container">
+            <h1>
+                <b>
+                    ПОСЛЕДНИЕ НОВОСТИ
+            </h1></b>
+            <div class="columns">
+                <div class="column">
+                    <section class="section">
+                        <h1 class="title">Section</h1>
+                        <h2 class="subtitle">
+                            A simple container to divide your page into <strong>sections</strong>, like the one you're
+                            currently reading.
+                        </h2>
+                    </section>
+                </div>
+                <style>
+                    .vl {
+                        border-left: 1px solid rgb(150, 151, 150);
+                        height: 250px;
+                    }
+                </style>
+
+                <div class="vl"></div>
+
+                <div class="column">
+                    <section class="section">
+                        <h1 class="title">Section</h1>
+                        <h2 class="subtitle">
+                            A simple container to divide your page into <strong>sections</strong>, like the one you're
+                            currently reading.
+                        </h2>
+                    </section>
+                </div>
+                <style>
+                    .vl {
+                        border-left: 1px solid rgb(150, 151, 150);
+                        height: 250px;
+                    }
+                </style>
+
+                <div class="vl"></div>
+                <div class="column">
+                    <section class="section">
+                        <h1 class="title">Section</h1>
+                        <h2 class="subtitle">
+                            A simple container to divide your page into <strong>sections</strong>, like the one you're
+                            currently reading.
+                        </h2>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero">
+
+        <div class="container">
+            <div class="hero block_article" style="background-image: url('img/home.jpg');">
+
+            </div>
+
+            <div class="hero-body">
+                <h4>Nature</h4>
+                <p>What a beautiful sunrise</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section" style="background-color: gainsboro;">
+
+        <div class="container">
+            <div class="columns">
+                <div class="column is-three-fifths">
+                    <p>Присоединяйтесь к информационному порталу о здоровье #1 БЕСПЛАТНО!
+                        <b> Последние достоверные новости от Натуропатов - будут доставлены на ваш почтовый адрес!</b>
+                    </p>
+                </div>
+                <div class="column">
+                    <div class="control">
+
+                        <input class="input is-normal" type="text" placeholder="Ваш электронный адрес">
+                    </div>
+                </div>
+                <div class="column">
+                    <button class="button is-danger is-focused">Присоединяйтесь!</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr />
+    <section class="section">
+        <div class="container">
+            <div class="has-text-centered">
+
+                <div class="buttons centered">
+
+                    <a href="{{ page.facebook }}" class="button is-dark" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a href="{{ page.instagram }}" class="button is-dark" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="{{ page.telegram }}" class="button is-dark" target="_blank">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                    <a href="{{ page.whatsapp }}" class="button is-dark" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+                <hr />
+                <div class="columns">
+                    <div class="column">
+                        <a href="">
+                            <p>
+                                Статьи о здоровье
+                            </p>
+                        </a>
+                        <a href="">
+                            <p>
+                                Медиа-запросы
+                            </p>
+                        </a>
+                       
+                            <a href="">
+                                <p>
+                                О Salutem
+                        </p>
+                        </a>
+
+                    </div>
+
+                    <div class="column">
+                        <a href="">
+                            <p>
+                                Свяжитесь с нами
+                            </p>
+                        </a>
+                        <a href="">
+                            <p>
+                                Пользовательское соглашение
+                            </p>
+                        </a>
+                        <a href="">
+                            <p>
+                                Политика приватности
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <p> <a href="/">2020-2021 Salutem Group. Все права защищены</a></p>
+            </div>
+        </div>
+    </section>
+    <script src="{{ site.baseurl }}/assets/js/app.js" type="text/javascript"></script>
+</body>
+
+</html>
