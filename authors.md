@@ -1,7 +1,7 @@
 ---
 layout: authors
 title: Authors
-description: The authors page for mere blog theme
+description: О нас
 ---
 
 This is the authors page.

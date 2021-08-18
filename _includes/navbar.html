@@ -13,7 +13,20 @@
         <div class="navbar-menu" id="navMenu">
             <div class="navbar-end">
                 {% if site.authors %}
-                <a class="navbar-item" href="{{ site.baseurl }}/authors/">Authors</a>
+                <a class="navbar-item" href="{{ site.baseurl }}/authors/" style="color: red;">НОВОСТНАЯ ЛЕНТА</a>
+                {% endif %}
+
+                {% if site.authors %}
+                <a class="navbar-item" href="{{ site.baseurl }}/authors/">НАТУРОПАТИЯ</a>
+                {% endif %}
+                {% if site.authors %}
+                <a class="navbar-item" href="{{ site.baseurl }}/authors/">FITNESS</a>
+                {% endif %}
+                {% if site.authors %}
+                <a class="navbar-item" href="{{ site.baseurl }}/authors/">ФАКТЫ О ЕДЕ</a>
+                {% endif %}
+                {% if site.authors %}
+                <a class="navbar-item" href="{{ site.baseurl }}/authors/">О НАС</a>
                 {% endif %}
             </div>
         </div>

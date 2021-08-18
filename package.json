@@ -1,7 +1,7 @@
 {
-  "name": "artemis-blog-theme",
+  "name": "salutem",
   "version": "1.0.0",
-  "description": "Artemis Blog Theme for Jekyll sites",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,7 @@
   "keywords": [
     "jekyll"
   ],
-  "author": "chrisrhymes",
+  "author": "chilli",
   "license": "MIT",
   "dependencies": {
     "bulma": "^0.9"
