@@ -1,6 +1,6 @@
 <div class="card">
     <div class="card-image">
-        <figure class="image is-128x128""> 
+        <figure class="image is-128x128"> 
         <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" width="100%">
     </div> </figure>
     <div class="card-content">
@@ -10,7 +10,7 @@
                 <span class="icon">
                     <i class= "{{ post.i }}" ></i>
                   </span>
-                <p class="title is-4">{{ post.title}}</p>
+                <p class="title is-3">{{ post.title}}</p>
               
             </a>
             <p class="subtitle is-6"> {{ post.date | date: "%b %-d, %Y" }} by {{ post.author }}</p>

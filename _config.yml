@@ -1,5 +1,6 @@
 # Site Settings
-title: vvv
+title: Salutem
+logo: /img/logo.png
 tagline: Salutem
 email: your-email@domain.com
 description: >
@@ -52,6 +53,19 @@ defaults:
     values:
       layout: "author"
 
+  -
+    scope:
+      path: ""
+      type: "News"
+    values:
+      author: "Salutem"
+      layout: new
+      image: /img/home.png
+      show_sidebar: true
+
+
 collections:
   authors:
     output: true
+
+
