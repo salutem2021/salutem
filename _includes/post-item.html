@@ -1,13 +1,19 @@
 <div class="card">
     <div class="card-image">
+        <figure class="image is-128x128""> 
         <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" width="100%">
-    </div>
+    </div> </figure>
     <div class="card-content">
         <div class="content">
+            
             <a href="{{ site.baseurl }}{{ post.url }}">
+                <span class="icon">
+                    <i class= "{{ post.i }}" ></i>
+                  </span>
                 <p class="title is-4">{{ post.title}}</p>
+              
             </a>
-            <p class="subtitle is-6">Размещено {{ post.date | date: "%b %-d, %Y" }} by {{ post.author }}</p>
+            <p class="subtitle is-6"> {{ post.date | date: "%b %-d, %Y" }} by {{ post.author }}</p>
             <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
         </div>
         <div class="has-text-centered">

@@ -1,11 +1,11 @@
 # Site Settings
-title: Salutem
-tagline: Mere Blog Theme
+title: vvv
+tagline: Salutem
 email: your-email@domain.com
 description: >
   
-baseurl: "/mere-blog-theme"
-url: "https://www.csrhymes.com"
+baseurl: "/salutem"
+url: ""
 permalink: pretty
 
 paginate: 6
@@ -39,10 +39,10 @@ defaults:
   -
     scope:
       path: ""
-      type: "Посты"
+      type: "Posts"
     values:
-      author: "C.S. Rhymes"
-      layout: пост
+      author: "Salutem"
+      layout: post
       image: /img/home.png
       show_sidebar: true
   -

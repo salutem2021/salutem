@@ -4,11 +4,14 @@ layout: default
 
 <div class="content">
     {{ content }}
+ 
 </div>
 
 <div class="columns is-multiline">
-    {% assign post_width = "6|6|12|4|4|4" | split: "|" %}
+    {% assign post_width = "6|6|4|4|4|12" | split: "|" %}
     {% for post in paginator.posts limit:6 %}
+  
+
     <div class="column is-{{ post_width[forloop.index0] }}">
         {% include post-item.html %}
     </div>
@@ -16,6 +19,7 @@ layout: default
 
     <div class="column is-12">
         {% include pagination.html %}
+      
     </div>
 </div>
 
