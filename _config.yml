@@ -1,6 +1,6 @@
 # Site Settings
 title: Salutem
-logo: /img/logo.png
+alt: img/logo.svg
 tagline: Salutem
 email: your-email@domain.com
 description: >
@@ -56,7 +56,14 @@ defaults:
   -
     scope:
       path: ""
-      type: "News"
+      type: "natures"
+    values:
+      layout: "nature"
+
+  -
+    scope:
+      path: ""
+      type: "news"
     values:
       author: "Salutem"
       layout: new

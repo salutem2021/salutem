@@ -1,29 +1,59 @@
----
-layout: default
----
+<!doctype html>
+<html>
+{% include head.html %}
 
-<div class="section">
-    <div class="container">
-        <div class="columns">
-            <div class="column">
-<div class="card">
-    <img src="img/home1.jpg" alt="">
-</div>
+<body>
+    
+    {% include navbar.html %}
+    <div class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <section class="hero {% if page.authors_height %} {{ page.authors_height }} {% else %} is-small {% endif %} is-bold is-transparent" {% if page.image %} style="background: url('{{ page.image | prepend: site.baseurl | immune }}')" {% endif %}>
+                        <div class="hero-body">
+                            <div class="container">
+                                <img src="../img/announ.png" alt="">
+                                <p class="title is-5">ПОДДЕРЖКА ИМУННОЙ СИСТЕМЫ</p>
+                            </div>
+                        </div>
+                    </section>    
+                </div>
+                <div class="column">
+                    <section class="hero {% if page.authors_height %} {{ page.authors_height }} {% else %} is-small {% endif %} is-bold is-transparent" {% if page.image %} style="background: url('{{ page.image | prepend: site.baseurl | immune }}')" {% endif %}>
+                        <div class="hero-body">
+                            <div class="container">
+                                <img src="../img/announ.png" alt="">
+                                <p class="title is-5">ЗДОРОВЬЕ ЖЕЛУДКА</p>
+                            </div>
+                        </div>
+                    </section>                
+                </div>
+                <div class="column">
+                    <section class="hero {% if page.authors_height %} {{ page.authors_height }} {% else %} is-small {% endif %} is-bold is-transparent" {% if page.image %} style="background: url('{{ page.image | prepend: site.baseurl | immune }}')" {% endif %}>
+                        <div class="hero-body">
+                            <div class="container">
+                                <img src="../img/announ.png" alt="">
+                                <p class="title is-5">СПОКОЙНЫЙ СОН</p>
+                            </div>
+                        </div>
+                    </section>                
+                </div>
+                <div class="column">
+                    <section class="hero {% if page.authors_height %} {{ page.authors_height }} {% else %} is-small {% endif %} is-bold is-transparent" {% if page.image %} style="background: url('{{ page.image | prepend: site.baseurl | immune }}')" {% endif %}>
+                        <div class="hero-body">
+                            <div class="container">
+                                <img src="../img/announ.png" alt="">
+                                <p class="title is-5">КРАСОТА ИЗНУТРИ</p>
+                            </div>
+                        </div>
+                    </section>                
+                </div>
             </div>
-            <div class="column">
-                <div class="card-image">
-                    <img src="img/home1.jpg" alt="">
-                </div>            
-            </div>
-            <div class="column">
-                <div class="card">
-                    <img src="img/home1.jpg" alt="">
-                </div>            </div>
-            <div class="column">
-                <div class="card">
-                    <img src="img/home1.jpg" alt="">
-                </div>            </div>
-          </div>
-          
+
+        </div>
     </div>
-</div>
+
+    {% include footer.html %}
+</body>
+
+</html>

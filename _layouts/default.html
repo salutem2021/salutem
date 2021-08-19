@@ -4,13 +4,8 @@
 
 <body>
     {% include navbar.html %}
-
     {% unless page.hide_hero %}
     {% include hero.html %}
-
-
-
-
     {% endunless %}
 
     <section class="section">
@@ -23,56 +18,73 @@
         <br />
         <hr style="color: black;" />
         <br />
-
         <div class="container">
-            <h1>
+            <p class="subtitle is-3">
                 <b>
                     ПОСЛЕДНИЕ НОВОСТИ
-            </h1></b>
+                </b>
+            </p>
             <div class="columns">
                 <div class="column">
-                    <section class="section">
-                        <h1 class="title">Section</h1>
-                        <h2 class="subtitle">
-                            A simple container to divide your page into <strong>sections</strong>, like the one you're
-                            currently reading.
-                        </h2>
-                    </section>
-                </div>
-                <style>
-                    .vl {
-                        border-left: 1px solid rgb(150, 151, 150);
-                        height: 250px;
-                    }
-                </style>
+                    <article class="message is-dark">
+                        <a href="{{ site.baseurl }}/first-news/ }}">
+                        <div class="message-body">
+                            <h1 style="color: black;">
+                                <b>Новое Доказательство Показало Связь Между Загрязнением Воздуха и Альцгеймером</b>
+                            </h1>
+                            <br />
+                            <br />
+                            Люди, живущие в областях с наименьшим загрязнением воздуха имеют меньший риск заболевания
+                            Альцгеймером. Здесь перечислены другие модифицирующиеся и способствующие факторы которые
+                            повышают ваш риск.
+                            <br />
+                            <br />
+                            <br />
+                            <p style="color: black;">Размещено: {{ site.time }} </p>
 
-                <div class="vl"></div>
+                        </div>
+                    </a>
+                    </article>
+                  
+                </div>
 
                 <div class="column">
-                    <section class="section">
-                        <h1 class="title">Section</h1>
-                        <h2 class="subtitle">
-                            A simple container to divide your page into <strong>sections</strong>, like the one you're
-                            currently reading.
-                        </h2>
-                    </section>
+                    <a href="{{ site.baseurl }}/second-news/ }}">
+                        <article class="message is-link">
+                            <div class="message-body">
+                                <h1 style="color: black;">
+                                    <b>Является Ли Естественный Иммунитет Более Эффективным Средством Чем
+                                        COVID-вакцина?</b>
+                                </h1>
+                                <br />
+                                На первый взгляд может показаться, что количество кейсов уменьшилось одновременно с
+                                распространением Covid-вакцин, но более пристальное внимание показывает, что они
+                                используют эти два скандальных метода: манипулирование данными и раскрутка историй - и
+                                это настоящая причина..
+                                <p style="color: black;">Размещено: {{ site.time }} </p>
+                            </div>
+                        </article>
+                    </a>
                 </div>
-                <style>
-                    .vl {
-                        border-left: 1px solid rgb(150, 151, 150);
-                        height: 250px;
-                    }
-                </style>
 
-                <div class="vl"></div>
                 <div class="column">
-                    <section class="section">
-                        <h1 class="title">Section</h1>
-                        <h2 class="subtitle">
-                            A simple container to divide your page into <strong>sections</strong>, like the one you're
-                            currently reading.
-                        </h2>
-                    </section>
+                    <a href="{{ site.baseurl }}/third-news/ }}">
+                        <article class="message is-success">
+                            <div class="message-body">
+                                <h1 style="color: black;">
+                                    <b> Солнцезащитные кремы J&J отозвали канцерогенные ингредиенты</b>
+                                </h1>
+                                <br />
+                                <br />
+                                Независимые испытания показали, что этот токсичный ингредиент содержится в 78
+                                солнцезащитных продуктах, почти все из которых остаются на рынке. Тщательно подумайте о
+                                защите от солнца, стараясь оптимизировать уровень витамина D.
+                                <br /> <br />
+                                <br />
+                                <p style="color: black;">Размещено: {{ site.time }} </p>
+                            </div>
+                        </article>
+                    </a>
                 </div>
             </div>
         </div>
@@ -117,71 +129,6 @@
     </section>
 
     <hr />
-    <section class="section">
-        <div class="container">
-            <div class="has-text-centered">
 
-                <div class="buttons centered">
 
-                    <a href="{{ page.facebook }}" class="button is-dark" target="_blank">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-
-                    <a href="{{ page.instagram }}" class="button is-dark" target="_blank">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="{{ page.telegram }}" class="button is-dark" target="_blank">
-                        <i class="fab fa-telegram"></i>
-                    </a>
-                    <a href="{{ page.whatsapp }}" class="button is-dark" target="_blank">
-                        <i class="fab fa-whatsapp"></i>
-                    </a>
-                </div>
-                <hr />
-                <div class="columns">
-                    <div class="column">
-                        <a href="">
-                            <p>
-                                Статьи о здоровье
-                            </p>
-                        </a>
-                        <a href="">
-                            <p>
-                                Медиа-запросы
-                            </p>
-                        </a>
-                       
-                            <a href="">
-                                <p>
-                                О Salutem
-                        </p>
-                        </a>
-
-                    </div>
-
-                    <div class="column">
-                        <a href="">
-                            <p>
-                                Свяжитесь с нами
-                            </p>
-                        </a>
-                        <a href="">
-                            <p>
-                                Пользовательское соглашение
-                            </p>
-                        </a>
-                        <a href="">
-                            <p>
-                                Политика приватности
-                            </p>
-                        </a>
-                    </div>
-                </div>
-                <p> <a href="/">2020-2021 Salutem Group. Все права защищены</a></p>
-            </div>
-        </div>
-    </section>
-    <script src="{{ site.baseurl }}/assets/js/app.js" type="text/javascript"></script>
-</body>
-
-</html>
+    {% include footer.html %}

@@ -7,10 +7,10 @@ $family-serif: 'Righteous', cursive;
 $family-primary: $family-sans-serif;
 $family-secondary: $family-serif;
 $title-family: $family-secondary;
-$navbar-box-shadow-size: 3px !important;
+$navbar-box-shadow-size: 5px !important;
 $navbar-box-shadow-color: hsl(0, 0%, 96%);
 h1, h2, h3, h4, h5, h6 {
-  font-family: $family-secondary;
+  font-family: sans-serif;
 }
 
 // Colours

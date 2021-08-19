@@ -1,8 +1,10 @@
+
+    
 <div class="navbar is-transparent">
     <div class="container">
         <div class="navbar-brand">
             <a class="navbar-item" href="{{ site.baseurl }}/">
-                <img src="img/logo.png" alt="">
+                <img src="img/logo.svg" alt="logo" />
             </a>
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
                 <span aria-hidden="true"></span>
@@ -12,26 +14,23 @@
         </div>
     </div>
 </div>
-<div class="navbar is-transparent">
     <div class="container">
-
         <div class="navbar-menu" id="navMenu">
-            <div class="navbar-end">
-                {% if site.authors %}
-                <a class="navbar-item" href="{{ site.baseurl }}/authors/" style="color: red;">НОВОСТНАЯ ЛЕНТА</a>
-                {% endif %}
+            <div class="navbar-end">           
+                <a class="navbar-item" href="{{ site.baseurl }}/" style="color: red;">НОВОСТНАЯ ЛЕНТА</a>
+            
 
                 {% if site.authors %}
-                <a class="navbar-item" href="{{ site.baseurl }}/authors/">НАТУРОПАТИЯ</a>
+                <a class="navbar-item" href="{{ site.baseurl }}/natures/">НАТУРОПАТИЯ</a>
                 {% endif %}
                 {% if site.authors %}
-                <a class="navbar-item" href="{{ site.baseurl }}/authors/">FITNESS</a>
+                <a class="navbar-item" href="{{ site.baseurl }}/fitness/">FITNESS</a>
                 {% endif %}
                 {% if site.authors %}
-                <a class="navbar-item" href="{{ site.baseurl }}/authors/">ФАКТЫ О ЕДЕ</a>
+                <a class="navbar-item" href="{{ site.baseurl }}/food-facts/">ФАКТЫ О ЕДЕ</a>
                 {% endif %}
                 {% if site.authors %}
-                <a class="navbar-item" href="{{ site.baseurl }}/authors/">О НАС</a>
+                <a class="navbar-item" href="{{ site.baseurl }}/about/">О НАС</a>
                 {% endif %}
                 <div class="navbar-end">
                     {% if site.authors %}
