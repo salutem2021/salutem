@@ -14,81 +14,9 @@
         </div>
     </section>
 
-    <section class="section" style="position: relative;">
-        <br />
-        <hr style="color: black;" />
-        <br />
-        <div class="container">
-            <p class="subtitle is-3">
-                <b>
-                    ПОСЛЕДНИЕ НОВОСТИ
-                </b>
-            </p>
-            <div class="columns">
-                <div class="column">
-                    <article class="message is-dark">
-                        <a href="{{ site.baseurl }}/first-news/ }}">
-                        <div class="message-body">
-                            <h1 style="color: black;">
-                                <b>Новое Доказательство Показало Связь Между Загрязнением Воздуха и Альцгеймером</b>
-                            </h1>
-                            <br />
-                            <br />
-                            Люди, живущие в областях с наименьшим загрязнением воздуха имеют меньший риск заболевания
-                            Альцгеймером. Здесь перечислены другие модифицирующиеся и способствующие факторы которые
-                            повышают ваш риск.
-                            <br />
-                            <br />
-                            <br />
-                            <p style="color: black;">Размещено: {{ site.time }} </p>
+    {% include news.html %}
 
-                        </div>
-                    </a>
-                    </article>
-                  
-                </div>
-
-                <div class="column">
-                    <a href="{{ site.baseurl }}/second-news/ }}">
-                        <article class="message is-link">
-                            <div class="message-body">
-                                <h1 style="color: black;">
-                                    <b>Является Ли Естественный Иммунитет Более Эффективным Средством Чем
-                                        COVID-вакцина?</b>
-                                </h1>
-                                <br />
-                                На первый взгляд может показаться, что количество кейсов уменьшилось одновременно с
-                                распространением Covid-вакцин, но более пристальное внимание показывает, что они
-                                используют эти два скандальных метода: манипулирование данными и раскрутка историй - и
-                                это настоящая причина..
-                                <p style="color: black;">Размещено: {{ site.time }} </p>
-                            </div>
-                        </article>
-                    </a>
-                </div>
-
-                <div class="column">
-                    <a href="{{ site.baseurl }}/third-news/ }}">
-                        <article class="message is-success">
-                            <div class="message-body">
-                                <h1 style="color: black;">
-                                    <b> Солнцезащитные кремы J&J отозвали канцерогенные ингредиенты</b>
-                                </h1>
-                                <br />
-                                <br />
-                                Независимые испытания показали, что этот токсичный ингредиент содержится в 78
-                                солнцезащитных продуктах, почти все из которых остаются на рынке. Тщательно подумайте о
-                                защите от солнца, стараясь оптимизировать уровень витамина D.
-                                <br /> <br />
-                                <br />
-                                <p style="color: black;">Размещено: {{ site.time }} </p>
-                            </div>
-                        </article>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <section class="hero">
 
