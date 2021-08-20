@@ -4,7 +4,7 @@
     <div class="container">
         <div class="navbar-brand">
             <a class="navbar-item" href="{{ site.baseurl }}/">
-                <img src="img/logo.svg" alt="logo" />
+                <img src="{{ site.baseurl }}/img/logo.svg" alt="logo" />
             </a>
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
                 <span aria-hidden="true"></span>
@@ -18,8 +18,6 @@
         <div class="navbar-menu" id="navMenu">
             <div class="navbar-end">           
                 <a class="navbar-item" href="{{ site.baseurl }}/" style="color: red;">НОВОСТНАЯ ЛЕНТА</a>
-            
-
                 {% if site.authors %}
                 <a class="navbar-item" href="{{ site.baseurl }}/natures/">НАТУРОПАТИЯ</a>
                 {% endif %}
@@ -40,11 +38,11 @@
                                 <i class="fas fa-download"></i>
                             </span>
                             <span>ШОП</span>
-                        </a></a>
+                        </a>
+                    </a>
+                       
                     {% endif %}
 
                 </div>
             </div>
         </div>
-    </div>
-</div>

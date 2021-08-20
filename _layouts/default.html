@@ -16,31 +16,55 @@
 
     {% include news.html %}
 
-    
+    <style>
+        p {
+            line-height: 1rem;
+        }
+    </style>
 
-    <section class="hero">
 
-        <div class="container">
-            <div class="hero block_article" style="background-image: url('img/home.jpg');">
+    <section class="section">
+        <div class="card" style="background: black ;">
 
+            <div class="columns">
+                <div class="column">
+                    <center>
+                    <p class="title is-4" style="color: seashell;">
+                        <br /><b>
+                            Мы Изменили Правила Игры В Здоровье
+                        </b> </p>
+                    <br />
+                    <p class="subtitle is-6" style="color: seashell;">
+                        Наша цель - дать вам возможность взять под свой контроль свое здоровье, предоставляя достоверную
+                        информация о естественном здоровье и щашишая ваше право делать осознанный выбор в отношении
+                        здоровья. Salutem Group.
+                    </p>
+                    <br />
+                </center>
+                </div>
+                <div class="column">
+                    <figure>
+                        <img src="{{ site.baseurl }}/img/logo.svg" alt="">
+                    </figure>
+                </div>
             </div>
-
-            <div class="hero-body">
-                <h4>Nature</h4>
-                <p>What a beautiful sunrise</p>
-            </div>
+ 
+        </div>
 
         </div>
 
     </section>
 
-    <section class="section" style="background-color: gainsboro;">
+    <section class="intro">
 
         <div class="container">
             <div class="columns">
                 <div class="column is-three-fifths">
-                    <p>Присоединяйтесь к информационному порталу о здоровье #1 БЕСПЛАТНО!
-                        <b> Последние достоверные новости от Натуропатов - будут доставлены на ваш почтовый адрес!</b>
+                    <center>
+                        <p class="subtitle is-6">Присоединяйтесь к информационному порталу о здоровье #1 БЕСПЛАТНО!
+                            <br /> <b> Последние достоверные новости от Натуропатов - будут доставлены на ваш почтовый
+                                адрес!</b>
+                    </center>
                     </p>
                 </div>
                 <div class="column">
@@ -50,7 +74,8 @@
                     </div>
                 </div>
                 <div class="column">
-                    <button class="button is-danger is-focused">Присоединяйтесь!</button>
+                    <button class="button"
+                        style="background-color: rgb(185, 5, 5); color: white">Присоединяйтесь!</button>
                 </div>
             </div>
         </div>

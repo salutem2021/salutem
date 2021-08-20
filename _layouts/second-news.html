@@ -4,127 +4,334 @@
 
 <body>
     {% include navbar.html %}
-    <div class="section">
-        <div class="container">
-            <div class="content">
-                <h1>Hello World</h1>
-                <p>Lorem ipsum<sup><a>[1]</a></sup> dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus
-                    ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate
-                    semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque. Sub<sub>script</sub>
-                    works as well!</p>
-                <h2>Second level</h2>
-                <p>Curabitur accumsan turpis pharetra <strong>augue tincidunt</strong> blandit. Quisque condimentum
-                    maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse
-                    potenti. Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.
+    <hr />
+    <div class="columns is-centered">
+        <center>
+            <h1 class="title">
+                <br /> <br />
+                <strong>
+                    Медленная еда, а не фастфуд </strong>
+                <br /> <br />
+            </h1>
+        </center>
+    </div>
+
+    <div class="columns is-centered">
+        <div class="column is-8-desktop is-10-tablet">
+            <div class="content is centered">
+                <p>
+                    <center>Проанализировано командой <a href=""> Salutem </a>
+                        <br />
+                        <span class="icon has-text-success">
+                            <i class="fas fa-check-square fas fa-2x"></i>
+                        </span>
+                    </center>
                 </p>
-                <ul>
-                    <li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
-                    <li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
-                    <li>Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.</li>
-                    <li>Ut non enim metus.</li>
-                </ul>
-                <h3>Third level</h3>
-                <p>Quisque ante lacus, malesuada ac auctor vitae, congue <a href="#">non ante</a>. Phasellus lacus ex,
-                    semper ac tortor nec, fringilla condimentum orci. Fusce eu rutrum tellus.</p>
-                <ol>
-                    <li>Donec blandit a lorem id convallis.</li>
-                    <li>Cras gravida arcu at diam gravida gravida.</li>
-                    <li>Integer in volutpat libero.</li>
-                    <li>Donec a diam tellus.</li>
-                    <li>Aenean nec tortor orci.</li>
-                    <li>Quisque aliquam cursus urna, non bibendum massa viverra eget.</li>
-                    <li>Vivamus maximus ultricies pulvinar.</li>
-                </ol>
-                <blockquote>Ut venenatis, nisl scelerisque sollicitudin fermentum, quam libero hendrerit ipsum, ut
-                    blandit est tellus sit amet turpis.</blockquote>
-                <p>Quisque at semper enim, eu hendrerit odio. Etiam auctor nisl et <em>justo sodales</em> elementum.
-                    Maecenas ultrices lacus quis neque consectetur, et lobortis nisi molestie.</p>
-                <p>Sed sagittis enim ac tortor maximus rutrum. Nulla facilisi. Donec mattis vulputate risus in luctus.
-                    Maecenas vestibulum interdum commodo.</p>
-                <dl>
-                    <dt>Web</dt>
-                    <dd>The part of the Internet that contains websites and web pages</dd>
-                    <dt>HTML</dt>
-                    <dd>A markup language for creating web pages</dd>
-                    <dt>CSS</dt>
-                    <dd>A technology to make HTML look better</dd>
-                </dl>
-                <p>Suspendisse egestas sapien non felis placerat elementum. Morbi tortor nisl, suscipit sed mi sit amet,
-                    mollis malesuada nulla. Nulla facilisi. Nullam ac erat ante.</p>
-                <h4>Fourth level</h4>
-                <p>Nulla efficitur eleifend nisi, sit amet bibendum sapien fringilla ac. Mauris euismod metus a tellus
-                    laoreet, at elementum ex efficitur.</p>
-                <pre>
-          &lt;!DOCTYPE html&gt;
-          &lt;html&gt;
-            &lt;head&gt;
-              &lt;title&gt;Hello World&lt;/title&gt;
-            &lt;/head&gt;
-            &lt;body&gt;
-              &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra nec nulla vitae mollis.&lt;/p&gt;
-            &lt;/body&gt;
-          &lt;/html&gt;
-          </pre>
-                <p>Maecenas eleifend sollicitudin dui, faucibus sollicitudin augue cursus non. Ut finibus eleifend arcu
-                    ut vehicula. Mauris eu est maximus est porta condimentum in eu justo. Nulla id iaculis sapien.</p>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>One</th>
-                            <th>Two</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Three</td>
-                            <td>Four</td>
-                        </tr>
-                        <tr>
-                            <td>Five</td>
-                            <td>Six</td>
-                        </tr>
-                        <tr>
-                            <td>Seven</td>
-                            <td>Eight</td>
-                        </tr>
-                        <tr>
-                            <td>Nine</td>
-                            <td>Ten</td>
-                        </tr>
-                        <tr>
-                            <td>Eleven</td>
-                            <td>Twelve</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <p>Phasellus porttitor enim id metus volutpat ultricies. Ut nisi nunc, blandit sed dapibus at,
-                    vestibulum in felis. Etiam iaculis lorem ac nibh bibendum rhoncus. Nam interdum efficitur ligula sit
-                    amet ullamcorper. Etiam tristique, leo vitae porta faucibus, mi lacus laoreet metus, at cursus leo
-                    est vel tellus. Sed ac posuere est. Nunc ultricies nunc neque, vitae ultricies ex sodales quis.
-                    Aliquam eu nibh in libero accumsan pulvinar. Nullam nec nisl placerat, pretium metus vel, euismod
-                    ipsum. Proin tempor cursus nisl vel condimentum. Nam pharetra varius metus non pellentesque.</p>
-                <h5>Fifth level</h5>
-                <p>Aliquam sagittis rhoncus vulputate. Cras non luctus sem, sed tincidunt ligula. Vestibulum at nunc
-                    elit. Praesent aliquet ligula mi, in luctus elit volutpat porta. Phasellus molestie diam vel nisi
-                    sodales, a eleifend augue laoreet. Sed nec eleifend justo. Nam et sollicitudin odio.</p>
-                <figure>
-                    <img src="https://bulma.io/images/placeholders/256x256.png">
-                    <img src="https://bulma.io/images/placeholders/256x256.png">
-                    <figcaption>
-                        Figure 1: Some beautiful placeholders
-                    </figcaption>
-                </figure>
-                <h6>Sixth level</h6>
-                <p>Cras in nibh lacinia, venenatis nisi et, auctor urna. Donec pulvinar lacus sed diam dignissim, ut
-                    eleifend eros accumsan. Phasellus non tortor eros. Ut sed rutrum lacus. Etiam purus nunc,
-                    scelerisque quis enim vitae, malesuada ultrices turpis. Nunc vitae maximus purus, nec consectetur
-                    dui. Suspendisse euismod, elit vel rutrum commodo, ipsum tortor maximus dui, sed varius sapien odio
-                    vitae est. Etiam at cursus metus.</p>
             </div>
+
+            <div class="columns">
+                <div class="column is-three-quarters">
+                    <a href="{{ page.facebook }}" class="button is-light" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="{{ page.instagram }}" class="button is-light" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="{{ page.telegram }}" class="button is-light" target="_blank">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                    <a href="{{ page.whatsapp }}" class="button is-light" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="{{ site.baseurl }}/first-news/">
+                        <button class="button is-danger">
+                            < Предыдущая</button> </a>
+                </div>
+                <div class="column">
+                    <a href="{{ site.baseurl }}/third-news/">
+                        <button class="button is-danger"> Следующая >
+                        </button></a>
+                </div>
+            </div>
+           
+
+            <p><strong>Published: {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</strong></p>
+            <br />
+            <div class="section is-centered">
+                <center> {{ content }} </center>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="content">
+                        <p class="subtitle is-4 text-has-centered">
+                            <br />
+                            <strong> ОБЗОР ИСТОРИИ </strong>
+                        </p>
+                        <br />
+                        <p class="subtitle is-6">
+                            > Хилари Бойнтон - «дама за обедом» в школе Manzanita, где она привносит в свой план питания
+                            акцент на еде от фермы к столу. Идея состоит в том, чтобы накормить детей здоровыми
+                            фермерским рыночным мясом, фруктами и овощами, приготовленными с нуля <br /><br />
+                            > Ее миссия родилась из-за проблем со здоровьем у нее и ее семьи, после которых она обнаружила, что
+                            может исцеляться силой пищи как лекарства. Она и двое других соучредили школьные обеды, где
+                            она обеспечивает образование и поддержку <br /><br />
+                            > Один соучредитель Школьных обедов также возглавляет местное отделение Слоу Фуд,
+                            организацию, деятельность которой направлена ​​на то, чтобы побуждать людей избегать
+                            фастфуда и вместо этого «есть еду, которая полезна для них, полезна для людей, которые ее
+                            выращивают, и полезна для тех, кто выращивает ее на планете" <br /><br />
+                            > Бойнтон является соавтором «Поваренной книги Heal Your Gut» с рецептами и поддержкой для
+                            людей, соблюдающих диету исключения GAPS, чтобы вылечить свой кишечник и уменьшить симптомы
+                            некоторых психических и физических состояний.<br /><br />
+                            > Одним из основополагающих принципов диеты GAPS является употребление ферментированных
+                            продуктов, которые не только легко приготовить дома, но и ароматны и полезны, и которые, как
+                            обнаружили исследователи, могут снизить риск смертности от COVID-19.<br />
+                      
+                        <br /> <br />
+                    </div>
+                </div>
+            </div>
+            </p>
+            <div class="section">
+                <br /> <br />
+                <p class="subtitle is-5">
+                В этом коротком видео вы увидите кулинарную программу, разработанную Хилари Бойнтон, Леди за обедом, для
+                школы Manzanita в Топанге, Калифорния. Ее цель состояла в том, чтобы пересмотреть систему, по которой детей кормят длинным списком обработанных пищевых продуктов с высоким содержанием токсинов и сахаров.
+                <br /><br />
+                Национальная программа школьных обедов - это программа, финансируемая из федерального бюджета, которая
+                обеспечивает дешевое или бесплатное питание для детей в государственных и некоммерческих частных школах.
+                Программа была учреждена президентом <a href="https://www.fns.usda.gov/nslp"> Гарри Трумэном в 1946 году.
+                <br /><br /></a>
+                В первый год в нем приняли участие около 7,1 миллиона детей. К 2016 году 30,4 миллиона детей получали <a href="https://www.fns.usda.gov/nslp/nslp-fact-sheet">
+                обеды в школе.</a> Школы получают компенсацию за питание в рамках программы по разным ставкам, но власти
+                могут получать дополнительные 6 центов за прием пищи, если программа в их школе сертифицирована как
+               <a href="https://fns-prod.azureedge.net/sites/default/files/resource-files/NSLPFactSheet.pdf">отвечающая требованиям. </a> 
+                <br /><br />
+                Одним из факторов соблюдения требований является еда, которую школа поставляет детям. Они могут выбирать
+                из продуктов, одобренных Министерством сельского хозяйства США. Сюда входят в основном замороженные,
+                консервированные фрукты, овощи и томатные соусы, а также фрукты, овощи и <a href="https://www.fns.usda.gov/usda-fis/usda-foods-available">томатные соусы.</a>  Отчасти из-за
+                желания детей есть по-настоящему питательные продукты, Бойнтон начал крестовый поход.».
+                <br /><br />
+               <a href="https://www.iamclovis.com/blogs/podcast/lunchlady">В интервью Джастину Нолту </a> Бойнтон рассказала о том, как началось ее путешествие, и о миссии, в которой
+                она оказалась, чтобы изменить статус-кво в программе школьных обедов. Ее история началась в подростковом
+                возрасте, когда она и ее родители начали верить и следовать модели питания с низким содержанием жиров.
+
+                </p>
+
+                <br /> <br />
+                <p class="subtitle is-5">
+                    Она практиковала это около 10 лет, но позже обнаружила, что это отрицательно сказывается на ее
+                    фертильности. После четырех выкидышей за три года она забеременела с помощью экстракорпорального
+                    оплодотворения и родила тройню. Через пару лет она забеременела естественным путем, сыном, у
+                    которого в 2 месяца развилась экзема.
+
+                    <br /><br />
+                    Медицинские эксперты сказали ей, что ему будут нужны стероидные кремы и антигистаминные препараты,
+                    отпускаемые без рецепта, и что у него, скорее всего, разовьется астма и аллергия, поскольку они идут
+                    рука об руку с экземой. Ее жизнь стала значительно более беспокойной, когда она забеременела пятым
+                    ребенком, когда ее четвертому ребенку было 6 месяцев. Внезапно у нее родилось пятеро детей младше 4
+                    лет.
+                    <br /><br />
+                    Не желая держать своего четвертого ребенка на стероидах и лекарствах, она начала исследовать
+                    изменения в питании, которые она могла бы внести, чтобы помочь ему выздороветь. Она узнала о сыром
+                    молоке и начала давать ему его с рыбьим жиром. Через несколько месяцев она обнаружила, что он
+                    полностью выздоровел, что продемонстрировало ей силу пищи как лекарства и то, как она может лечить
+                    тело.
+                    <br /><br />
+                    Вскоре она начала руководить кооперативом амишей из своего дома, потому что искренне верила, что
+                    другие должны иметь возможность испытать силу еды рядом с источником производства. Ее миссия
+                    заключалась в том, чтобы поделиться этой информацией с другими, поэтому она окончила Институт
+                    интегративного питания и начала проводить уроки кулинарии вне дома.
+                    <br /><br />
+                </p>
+
+                <p class="subtitle is-5">
+                    В это время у одной из тройняшек развилась эпилепсия, и она начала исследовать изменения в питании,
+                    которые могут помочь ее маленькой девочке. Ей было предложено взглянуть на диету GAPS для своей
+                    дочери и для остальных членов семьи. Один из ее учеников был фотографом, который также использовал
+                    диету GAPS для своей семьи. Они не нашли много ресурсов, чтобы помочь создавать рецепты дома, и
+                    решили вместе написать книгу. Это стало «Поваренной книгой по исцелению кишечника».
+                    Автор поваренной книги «Исцели свой кишечник» нацелен на школьников
+                    <br /><br />
+
+                </p>
+                <p class="subtitle is-3"> <strong>
+                        Автор поваренной книги «Исцели свой кишечник» нацелен на школьников
+                    </strong>
+                </p>
+                <br /> <br />
+                <p class="subtitle is-5">
+                    Бойнтон описывает себя как активистку в области питания и надеется, что ее работа поможет людям
+                    понять связь между их здоровьем и пищей, которую они едят. В конечном счете, она увлечена здоровьем
+                    детей, что привело к тому, что она стала обедать в школе своего ребенка, чтобы бороться с
+                    разрушительными последствиями <a href="https://shoutoutla.com/meet-hilary-boynton-founder/"> плохого питания.</a>
+                    <br /> <br />
+
+                    Бойнтон встретил Чарльза Барта и Джоэла Роджерса на местном <a href="https://www.schooloflunch.com/abouthilary"> фермерском рынке.</a> Барт был хорошо
+                    знаком с местными продовольственными системами в своей работе, а Роджерс был исполнительным
+                    продюсером телевидения, связанным с местными фермерами и продуктами питания.
+                    <br /> <br />
+                    Группа объединилась, чтобы стать соучредителем «Школы обеда», чтобы помочь научить других, как
+                    продвигать здоровое питание в школах - основная цель заключалась в том, чтобы оказать влияние на
+                    здоровье и жизнь детей, предлагая обучение и консультации, основанные на успехе. своей модели.
+                    <br /> <br />
+                    Она называет это образом жизни Regen-Living (регенерация жизни), поскольку она помогает учить, что возвращение к основам
+                    питания предков, стремление к здоровым отношениям между телом, окружающей средой и местными
+                    источниками пищи является основополагающим. Солнечный свет, сон, упражнения, чистая вода, движение,
+                    связь с сообществом и природой.
+                    <br /> <br />
+                    Она устанавливает это, работая с местными фермерами, чтобы обеспечить цепочку поставок от фермы до
+                    стола, чтобы удовлетворить потребности детей в питании. Идея состоит в том, чтобы укрепить местную
+                    продовольственную систему, сломав тенденцию к хроническим заболеваниям, научив детей есть здоровую
+                    пищу.
+                    <br /> <br />
+                    Программа также помогает детям понять, откуда берутся продукты, и делает фермеров и владельцев
+                    бизнеса в этом районе частью программы школьных обедов с акцентом на то, чтобы фермеры приносили еду
+                    за <a href="https://www.schooloflunch.com/education">стол</a> . Школа обедов предоставляет Академию подготовки руководителей обедов, 11 который
+                    представляет собой недельный ретрит для родителей, учителей и поваров, чтобы узнать, как изменить
+                    свою жизнь.
+                   
+                </p>
+                <p class="subtitle is-3"> <strong>
+                        Соучредитель программы возглавляет Слоу Фуд округ Вентура
+                    </strong></p>
+                <br /> <br />
+                <p class="subtitle is-5">
+                    Барт - нынешний глава отделения Слоу Фуд округа Вентура. Слоу Фуд - это организация, которая
+                    фокусируется на том, чтобы побуждать людей «есть ту пищу, которая полезна для них, полезна для
+                    людей, которые ее выращивают, и <a href="https://slowfoodusa.org/about/"> полезна для планеты» </a>
+
+                    <br /> <br />
+                    Организация возникла 30 лет назад, когда итальянцы в Риме протестовали против открытия франшизы
+                    быстрого питания у подножия Испанской лестницы. Активисты принесли большие тарелки пасты пенне,
+                    чтобы поделиться с толпой, и скандировали: «Мы не хотим фастфуд.<a href="https://slowfoodusa.org/about/"> Мы хотим медленную еду!» </a>
+
+                    <br /> <br />
+                </p>
+
+                <p class="subtitle is-5">
+                    <br /> <br />
+                    Организация выросла до более чем 160 стран, в том числе 150 отделений в США. Их миссия состоит в
+                    том, чтобы «вызвать драматические и устойчивые изменения в продовольственной системе», вдохновляя
+                    <a href="https://slowfoodusa.org/about/">«людей и сообщества на изменение мира с помощью продуктов питания, которые являются хорошими,
+                    чистыми и справедливыми для всех».</a> Их цель - заново открыть для себя ароматы региональной
+                    кухни и избавиться от разрушительного воздействия фастфуда.
+                </p>
+                <p class="subtitle is-3">
+                    Поддержка здоровья кишечника - общее состояние здоровья
+                </p>
+                <br /> <br />
+
+                <p class="subtitle is-5">
+                    <br /> <br />
+                    Бойнтон является сторонником диеты GAPS, которая обозначает синдром кишечника и психологии, а в
+                    последнее время - синдром кишечника и физиологии. План питания был разработан неврологом и
+                    диетологом доктором Наташей Кэмпбелл-Макбрайд и основан на теории, согласно которой многие из
+                    состояний, влияющих на неврологическую систему и остальную часть тела, основаны на дырявом
+                    кишечнике.
+                    <br /> <br />
+                    Когда стенка кишечника пропускает молекулы в кровоток из кишечного тракта, это вызывает
+                    воспалительную реакцию и может привести к множеству заболеваний. По сути, диета представляет собой
+                    исключающую диету, которая помогает кишечнику со временем заживать.
+                    <br /> <br />
+                    Научных исследований, демонстрирующих преимущества или проблемы, связанные с диетой, <a href="https://www.foodnetwork.com/healthyeats/diets/2019/05/what-is-the-gaps-diet">не
+                    проводилось</a>, но многие, включая Бойнтона, сообщали о преимуществах от <a href="https://nourishedkitchen.com/what-is-the-gaps-diet/"> соблюдения программы.</a>План
+                    питания не поддерживает использование каких-либо обработанных пищевых продуктов или фирменных
+                    добавок, но тем не менее они широко критиковались, так как кажутся ограничительными, исходя из
+                    современной западной диеты.
+                    <br /> <br />
+                </p>
+
+                <p class="subtitle is-5">
+                    В подкасте, посвященном <a href="https://www.urbanfarm.org/2018/08/14/376-hilary-boynton/"> Urban Farmer,</a> Бойнтон описывает диету GAPS как возвращение вашей кишечной
+                    системы к «нулевому уровню». Это удаляет многие раздражители вашей системы и способствует
+                    употреблению ферментированных продуктов и устранению воспалительных продуктов с высоким содержанием
+                    клетчатки, чтобы помочь восстановить здоровый микробиом кишечника.
+                    <br /> <br />
+                    Сахар и полуфабрикаты запрещены, но как только ваша кишечная система будет сбалансирована, у вас
+                    появится возможность стать более гибкими. Следуя плану питания вместе со своей семьей в течение двух
+                    лет и увидев заметные изменения в здоровье своих детей, супруга и себя самого, Бойнтон стала
+                    экспертом по диете GAPS.
+                    <br /> <br />
+                    Я неоднократно писал о важности здорового микробиома кишечника для психического и физического
+                    здоровья. Воздействие начинается в младенчестве, как продемонстрировали <a href="https://jamanetwork.com/journals/jamapediatrics/article-abstract/2683259">данные</a>, полученные из
+                    Канадского исследования здорового младенческого продольного развития (CHILD). Исследователи
+                    обнаружили, что самый высокий уровень полезных бактерий в возрасте 3 месяцев и 1 года был у
+                    младенцев, которые находились на исключительно грудном вскармливании.
+
+                    <br /> <br />
+
+                    Младенцы, которые получают исключительно искусственное вскармливание, имеют наименьшее количество
+                    бактерий и распространение микробов, которые чаще встречаются у детей старшего возраста и взрослых.
+                    Те, кто кормили исключительно смесями, также имели почти вдвое больший риск получить <a href="https://jamanetwork.com/journals/jamapediatrics/article-abstract/2683259">лишний вес </a>,
+                    состояние, на которое сильно влияет микробиом кишечника.
+
+                    <br /> <br />
+                    Микробиом кишечника влияет на десятки состояний здоровья, включая депрессию, 21 синдром хронической
+                    усталости, болезнь Паркинсона, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2515351/">аллергию </a> и рак. Одна из причин заключается в том, что кишечник
+                    является основным местом расположения вашей <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2515351/">иммунной системы</a>. Поэтому, когда вы нарушаете
+                    микробиом кишечника, вы автоматически нарушаете свою иммунную функцию.
+
+                    <br /> <br />
+                <p class="subtitle is-3"><strong>Ферментированные продукты полезны для кишечника
+
+                    </strong></p>
+                <p class="subtitle is-5">
+                    Диета GAPS предназначена для людей со значительными заболеваниями. Если процесс прохождения
+                    элиминационной диеты поначалу кажется непосильным, подумайте о значительном сокращении или
+                    исключении обработанных пищевых продуктов и напитков, а также сахара из своего рациона, добавляя при
+                    этом ферментированные продукты, мясные бульоны и костные бульоны.
+                    <br /> <br />
+                    Изначально процесс брожения использовался для сохранения продуктов. Со временем многие культуры
+                    включили эти продукты в свой ежедневный рацион и поделились ими со всем миром. Например, японское
+                    натто, корейское кимчи и немецкая квашеная капуста популярны во многих регионах за пределами их
+                    соответствующих <a href="https://chriskresser.com/the-13-benefits-of-fermented-foods-and-how-they-improve-your-health/">мест происхождения </a> .
+                    <br /> <br />
+                    Ферментация контролируется микроорганизмами и типом пищи. Многие из этих микроорганизмов полезны для
+                    микробиома кишечника. Фактически, йогуртная промышленность рекламировала, что употребление
+                    контейнера в день может быть полезным для поддержания здоровья пищеварительной системы.
+                    <br /> <br />
+                    Однако, хотя эти продукты могут содержать пробиотики, они также содержат большое количество сахара,
+                    который питает вредные бактерии в кишечнике. Это лишь одна из причин, по которой покупной йогурт
+                    обычно не приносит пользы.
+                    <br /> <br />
+
+                    Boynton продвигает использование хлеба, ферментированного на закваске, поскольку он переваривается
+                    легче, чем дрожжевой хлеб, и не причиняет такого большого вреда желудочно-кишечному тракту. Авторы
+                    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6950244/">одного исследования </a>обнаружили, что у тех, кто ел хлеб на закваске, было более быстрое опорожнение
+                    желудка и время прохождения через кишечник.<br /> <br />
+                </p>
+
+                <br />
+                <p class="subtitle is-5">
+
+                    В диете GAPS Intro используются мясные бульоны (с низким содержанием глутаминовой кислоты), а
+                    костные бульоны являются основными продуктами диеты Full GAPS, поскольку они не только легко
+                    усваиваются, но и содержат большое количество иммуноптимизирующих компонентов, которые являются
+                    основными строительными блоками. для лечения аутоиммунных заболеваний. Костный отвар может повлиять
+                    на воспаление, потерю веса и сон.
+
+                    <br /> <br />
+
+                    Не все кости одинаковы, поэтому важно выбирать те, которые содержат наиболее питательные
+                    ингредиенты. В той же статье мы также делимся образцами рецептов костного бульона. Для получения
+                    дополнительной информации о Хилари и Школе обеда, а также о предстоящих учебных академиях посетите
+                    сайт www.schooloflunch.com.
+                    <br /> <br />
+                </p>
+
+            </div>
+
+
+            {% include book-ad.html %}
 
         </div>
     </div>
     {% include footer.html %}
+
+
 </body>
 
 </html>

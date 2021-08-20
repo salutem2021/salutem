@@ -1,24 +1,42 @@
-<div class="card">
-    <div class="card-image">
-        <figure class="image is-128x128"> 
-        <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" width="100%">
-   </figure>
-    </div> 
+<div class="card" style="background: rgb(226, 226, 223);">
+    <div class="card-image" style="padding: 1rem;">
+
+        <div class="date" style="margin-bottom: 1rem;">
+            <i class="fa fa-star" style="color: rgb(204, 3, 3);" aria-hidden="true"></i>
+            <strong>
+                <p class="subtitle is-5" style="display: inline-block; color: rgb(204, 3, 3);"> <b>{{post.title}}</b>
+                </p>
+            </strong>
+        </div>
+
+        <div class="container">
+            <h1 style="color: black;">
+                <b>{{post.name}}</b>
+            </h1>
+            <br/>
+            <div class="columns">
+                
+                <div class="column">
+                    <p>{{post.short}} 
+                        <a href="{{ site.baseurl }}{{ post.url }}">Подробнее</a>
+                    </p>
+                </div>
+                <div class="column">
+                    <figure class="image is-240x240">
+                        <img src="{{ post.image | prepend: site.baseurl }}" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="card-content">
         <div class="content">
-            
             <a href="{{ site.baseurl }}{{ post.url }}">
-                <span class="icon">
-                    <i class= "{{ post.i }}" ></i>
-                  </span>
-                <p class="title is-3">{{ post.title}}</p>
-              
             </a>
-            <p class="subtitle is-6"> {{ post.date | date: "%b %-d, %Y" }} by {{ post.author }}</p>
+          
+            <p class="subtitle is-7"> {{ post.date | date: "%b %-d, %Y" }} {{ post.author }}</p>
             <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
         </div>
-        <div class="has-text-centered">
-            <a href="{{ site.baseurl }}{{ post.url }}" class="button is-dark is-fullwidth">Читать Больше</a>
-        </div>
+       
     </div>
 </div>

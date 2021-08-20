@@ -1,7 +1,8 @@
 ---
+youtubeId: pHq-QOZmJXo
 layout: second-news
-title: second-news
-description: Факты о спорте
+title: facts
+author: Salutem
 ---
 
-This is the second-news page.
+{% include youtubePlayer.html id=page.youtubeId %}

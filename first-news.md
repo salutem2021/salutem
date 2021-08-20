@@ -5,6 +5,10 @@ description: Факты
 intro: ОБЗОР ИСТОРИИ 
 alt: logo
 ---
+
+<div class="columns is-centered">
+<div class="column is-8-desktop is-10-tablet">
+       
 <div class="section">
         <div class="container">
             <div class="content">
@@ -13,17 +17,22 @@ alt: logo
                         <div class="message-header">
                           <p class="title is-1">
                                 <center> ВАЖНОЕ ОБЪЯВЛЕНИЕ</center>
-                            </p>
+                          </p>
                         </div>
                         <div class="message-body">
                             <center> Почему мы будем удалять контент каждые 72 часа</center>
                         </div>
-                </article>
+                    </article>
                   </a>
-                <center>
+                </div> 
+             </div>
+            </div>
+                 <center>
+                <br/>
                     <h1>Новые данные показывают связь между загрязнением воздуха и болезнью Альцгеймера</h1>
                 </center>
                 <br />
+                <div class="container">
                 <p>
                     <center>Проанализировано командой <a href=""> Salutem </a>
                         <br />
@@ -32,18 +41,19 @@ alt: logo
                         </span>
                     </center>
                 </p>
+                </div>
                 <div class="columns">
                     <div class="column is-three-quarters">
-                        <a href="{{ page.facebook }}" class="button is-dark" target="_blank">
+                        <a href="{{ page.facebook }}" class="button is-light" target="_blank">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-            <a href="{{ page.instagram }}" class="button is-dark" target="_blank">
+            <a href="{{ page.instagram }}" class="button is-light" target="_blank">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a href="{{ page.telegram }}" class="button is-dark" target="_blank">
+                        <a href="{{ page.telegram }}" class="button is-light" target="_blank">
                             <i class="fab fa-telegram"></i>
                         </a>
-                        <a href="{{ page.whatsapp }}" class="button is-dark" target="_blank">
+                        <a href="{{ page.whatsapp }}" class="button is-light" target="_blank">
                             <i class="fab fa-whatsapp"></i>
                         </a>
                     </div>
@@ -58,7 +68,6 @@ alt: logo
                             </button></a>
                         </div>
                     </div>
-                </div>
                 <div class="card">
                     <div class="card-content">
                         <div class="content">
@@ -218,3 +227,7 @@ alt: logo
 Мы не верим, что плохая память и возможное слабоумие наравне с курсом старения. Мы не верим, что Альцгеймер неизбежен. Существует много вложенных факторов, но есть также профилактические стратегии, которые могут быть использованы, которые снижают ваш общий риск и предотвращают когнитивные нарушения. Вы найдете много предложений в «исследованиях, подчеркивающие важность хорошего сна для профилактики Альцгеймера».
 </strong>
 </p>
+<br/>
+ {% include book-ad.html %}
+</div>
+</div>
