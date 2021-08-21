@@ -1,7 +1,7 @@
-<div class="card" style="background: rgb(226, 226, 223);">
-    <div class="card-image" style="padding: 1rem;">
+<div class="card" style="background: rgb(236, 238, 240);">
+    <div class="card-image" style="padding-top: 1rem; padding-left: 1rem">
 
-        <div class="date" style="margin-bottom: 1rem;">
+        <div class="date">
             <i class="fa fa-star" style="color: rgb(204, 3, 3);" aria-hidden="true"></i>
             <strong>
                 <p class="subtitle is-5" style="display: inline-block; color: rgb(204, 3, 3);"> <b>{{post.title}}</b>
@@ -10,21 +10,20 @@
         </div>
 
         <div class="container">
-            <h1 style="color: black;">
+            <p class="title is-4" style="color: black;">
                 <b>{{post.name}}</b>
             </h1>
             <br/>
             <div class="columns">
-                
-                <div class="column">
-                    <p>{{post.short}} 
-                        <a href="{{ site.baseurl }}{{ post.url }}">Подробнее</a>
-                    </p>
-                </div>
                 <div class="column">
                     <figure class="image is-240x240">
                         <img src="{{ post.image | prepend: site.baseurl }}" alt="">
                     </figure>
+                </div>
+                <div class="column">
+                    <p>{{post.short}} 
+                        <a href="{{ site.baseurl }}{{ post.url }}">Подробнее</a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -37,6 +36,6 @@
             <p class="subtitle is-7"> {{ post.date | date: "%b %-d, %Y" }} {{ post.author }}</p>
             <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
         </div>
-       
+      
     </div>
 </div>

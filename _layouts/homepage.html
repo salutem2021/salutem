@@ -4,17 +4,69 @@ layout: default
 
 <div class="content">
     {{ content }}
-  
+
 </div>
 
 <div class="columns is-multiline">
     {% assign post_width = "6|6|4|4|4|12" | split: "|" %}
     {% for post in paginator.posts limit:6 %}
-  
- 
 
-    <div class="column is-{{ post_width[forloop.index0] }}" >
-        {% include post-item.html %}
-    </div>
-    {% endfor %}
-    
+
+
+    <div class="columns">
+        <div class="column">
+            {% include post-item.html %}
+        </div>
+        <div class="column">
+            <div class="card" style="background: rgb(236, 238, 240);">
+                <div class="card-image" style="padding-top : 1rem; padding-left: 1rem;">
+                    <div class="date">
+                        <div class="columns">
+                            <div class="column is-7">
+                                <div class="date">
+                                    <i class="fas fa-info-circle" style="color: rgb(20, 117, 245);"
+                                        aria-hidden="true"></i>
+                                    <strong>
+                                        <p class="subtitle is-5"
+                                            style="display: inline-block; color: rgb(20, 117, 245);">
+                                            <b>ВАЖНОЕ ОБЪЯВЛЕНИЕ</b>
+                                        </p>
+                                    </strong>
+                                </div>
+                                <br />
+                                <p class="title is-4" style="color: black;">
+                                    <b>Кто мы и почему Важно Ознакомиться с Данным Объявлением</b>
+                                    </h1>
+                                    <br />
+
+                                <p> Группа экспертов в области натуропатии, объединенных одной идеей, дадут Вам
+                                    рекомендации на..
+
+                                    <a href="{{ site.baseurl }}{{ post.url }}">Подробнее</a>
+                                </p>
+
+                                <div class="card-content">
+                                    <div class="content">
+                                        <a href="{{ site.baseurl }}{{ post.url }}">
+                                        </a>
+
+                                        <p class="subtitle is-7"> {{ post.date | date: "%b %-d, %Y" }} {{ post.author }}
+                                        </p>
+                                        <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <figure class="image is-3by4">
+                                    <img src="{{ site.baseurl }}/img/dash.png" alt="">
+                                </figure>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        {% endfor %}

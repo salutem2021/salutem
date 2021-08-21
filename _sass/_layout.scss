@@ -16,6 +16,8 @@ div.highlight {
 
 @include desktop {
     .navbar-item {
+        min-height: unset;
+        max-height: 2em;
         &.is-hoverable:hover {
             .navbar-dropdown {
                 display: block;

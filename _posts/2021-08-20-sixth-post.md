@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: Топ-история
+title: ТОП-ИСТОРИЙ
 author: dr. Salutem
 image: /img/how-mrna.jpg
 i: fas fa-star
