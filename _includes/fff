@@ -1,22 +1,3 @@
----
-layout: default
----
-
-<div class="content">
-    {{ content }}
-
-</div>
-
-<div class="columns is-multiline">
-    {% assign post_width = "6|6|4|4|4|12" | split: "|" %}
-    {% for post in paginator.posts limit:6 %}
-
-
-
-    <div class="columns">
-        <div class="column">
-            {% include post-item.html %}
-        </div>
         <div class="column">
             <div class="card" style="background: rgb(236, 238, 240);">
                 <div class="card-image" style="padding-top : 1rem; padding-left: 1rem;">
@@ -40,7 +21,7 @@ layout: default
                                     <br />
 
                                 <p> Группа экспертов в области натуропатии, объединенных одной идеей, дадут Вам
-                                    рекомендации на..
+                                    рекомендации на.. <br/>
 
                                     <a href="{{ site.baseurl }}">Подробнее</a>
                                 </p>                         
@@ -60,5 +41,3 @@ layout: default
             </div>
 
         </div>
-
-        {% endfor %}
