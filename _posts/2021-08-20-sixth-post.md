@@ -50,12 +50,9 @@ short: Каждая доза вакцины Moderna COVID-19 откладыва�
                     </a>
                 </div>
                 <div class="column">
-                    <a href="{{ site.baseurl }}/first-news/">
-                        <button class="button is-small is-danger">
-                            < Предыдущая</button> </a>
                 </div>
                 <div class="column">
-                    <a href="{{ site.baseurl }}/third-news/">
+                    <a href="{{ site.baseurl }}/announcement/">
                         <button class="button is-small is-danger"> Следующая >
                         </button></a>
                 </div>

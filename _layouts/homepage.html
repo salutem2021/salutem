@@ -27,27 +27,31 @@ layout: default
                                     <i class="fas fa-info-circle" style="color: rgb(20, 117, 245);"
                                         aria-hidden="true"></i>
                                     <strong>
-                                        <p class="subtitle is-5"
-                                            style="display: inline-block; color: rgb(20, 117, 245);">
-                                            <b>ВАЖНОЕ ОБЪЯВЛЕНИЕ</b>
-                                        </p>
+                                        <a href="{{ site.baseurl }}/announcement/">
+                                            <p class="title is-5"
+                                                style="display: inline-block; color: rgb(20, 117, 245);">
+                                                <b>ВАЖНОЕ ОБЪЯВЛЕНИЕ</b>
+                                            </p>
+
                                     </strong>
                                 </div>
-                                
-                                <h1 class="title is-4" style="color: black; margin-top: 1rem;">
-                                    <b>Кто Мы и  Почему Важно Ознакомиться с Данным Объявлением</b>
-                                    </h1>
-                                   
 
-                                 Группа экспертов в области натуропатии, объединенных одной идеей, дадут Вам
-                                    рекомендации на..
+                                <p class="subtitle is-5" style="color: black; margin-top: 1rem;">
+                                    <b>Кто Мы и Почему Важно Ознакомиться с Данным Объявлением</b>
+                                </h1>
+                                <p class="subtitle is-7">
 
-                                    <a href="{{ site.baseurl }}">Подробнее</a>
-                                                      
-                                        <p class="subtitle is-7" style="margin-top: 1rem ;"> {{ post.date | date: "%b %-d, %Y" }} {{ post.author }}
-                                        </p>
-                                    </div>
-                               
+                                <br/><br/>
+                                Группа экспертов в области натуропатии, объединенных одной идеей, дадут Вам
+                                рекомендации на..
+                                </a>
+                                <a href="{{ site.baseurl }}/announcement/">Подробнее</a>
+                            </p>
+                                <p class="subtitle is-7" style="margin-top: 1rem ;"> {{ post.date | date: "%b %-d, %Y"
+                                    }} {{ post.author }}
+                                </p>
+                            </div>
+
                             <div class="column">
                                 <figure class="image is-3by4">
                                     <img src="{{ site.baseurl }}/img/dash.png" alt="">

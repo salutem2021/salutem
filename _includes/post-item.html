@@ -4,15 +4,17 @@
         <div class="date">
             <i class="fa fa-star" style="color: rgb(204, 3, 3);" aria-hidden="true"></i>
             <strong>
+                <a href="{{ site.baseurl }}{{ post.url }}">
                 <p class="subtitle is-5" style="display: inline-block; color: rgb(204, 3, 3);"> <b>{{post.title}}</b>
                 </p>
             </strong>
         </div>
 
         <div class="container">
-            <p class="title is-4" style="color: black; margin-top: 6px;">
+            <h1 class="title is-4" style="color: black; margin-top: 6px;">
                 <b>{{post.name}}</b>
             </h1>
+        </a>
             <br/>
             <div class="columns">
                 <div class="column">
@@ -21,9 +23,14 @@
                     </figure>
                 </div>
                 <div class="column">
-                    {{post.short}} 
-                        <a href="{{ site.baseurl }}{{ post.url }}">Подробнее</a>
                     
+                        <p class="subtitle is-7">
+
+                    <a href="{{ site.baseurl }}{{ post.url }}">
+                    {{post.short}} 
+                </a> 
+                        <a href="{{ site.baseurl }}{{ post.url }}">Подробнее</a></p>
+                   
                     <div class="card-content">
                         <div class="content">
                             <a href="{{ site.baseurl }}{{ post.url }}">
