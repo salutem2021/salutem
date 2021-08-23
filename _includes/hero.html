@@ -1,22 +1,16 @@
 <a href="">
-    <section class="section">
-        <div class="card">
-            <div class="card-image">
-                <section class="hero" {% if page.image %}
-                    style="background: url('{{ site.baseurl }}/img/home.jpg') no-repeat center center; background-size: cover;"
-                    {% endif %}>
+    {% if page.image %}
+                <section class="hero is-small" 
+                    style="background: url('{{ site.baseurl }}/img/home.jpg') no-repeat center center; background-size: responsive;">
+                    {% endif %} 
                     <div class="hero-body">
                         <div class="container">
-
                             <div class="columns">
-
-                                <div class="column is-6">
-                               
-                                    <p class="title is-2" style="color: white">Правда О COVID-19</p>
-
+                                <div class="column is-6">   
+                                    <p class="title is-4" style="color: white">Правда О COVID-19</p>
                                 <hr style="width: 70%; " />
-                                <p class="subtitle is-3" style="color: white">Книга От Независимых Натуропатов</p>
-                            </div>
+                                <p class="subtitle is-5" style="color: white">Книга От Независимых Натуропатов</p>
+                                 </div>
                             <div class="column">
                                 <figure class="image is-128x128">
                                     <img src="{{ site.baseurl }}/img/book.png" alt="">
@@ -28,13 +22,10 @@
                                         Заказать
                                         Сейчас</button>
                                 </div>
-
                             </div>
-
                         </div>
                     </div>
+                </div>
+            </section>
 
-            </div>
-        </div>
-    </section>
 </a>

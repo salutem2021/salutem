@@ -7,7 +7,7 @@ layout: default
 
 </div>
 
-<div class="columns is-multiline">
+<div class="columns is-multiline" style="list-style-type: none; display: flex;">
     {% assign post_width = "6|6|4|4|4|12" | split: "|" %}
     {% for post in paginator.posts limit:6 %}
 
@@ -18,7 +18,7 @@ layout: default
             {% include post-item.html %}
         </div>
         <div class="column">
-            <div class="card" style="background: rgb(236, 238, 240);">
+            <div class="card" style="background: rgb(244, 245, 247);">
                 <div class="card-image" style="padding-top : 1rem; padding-left: 1rem;">
                     <div class="date">
                         <div class="columns">
@@ -33,23 +33,23 @@ layout: default
                                         </p>
                                     </strong>
                                 </div>
-                                <br />
-                                <p class="title is-4" style="color: black;">
-                                    <b>Кто мы и почему Важно Ознакомиться с Данным Объявлением</b>
+                                
+                                <h1 class="title is-4" style="color: black; margin-top: 1rem;">
+                                    <b>Кто Мы и  Почему Важно Ознакомиться с Данным Объявлением</b>
                                     </h1>
-                                    <br />
+                                   
 
-                                <p> Группа экспертов в области натуропатии, объединенных одной идеей, дадут Вам
+                                 Группа экспертов в области натуропатии, объединенных одной идеей, дадут Вам
                                     рекомендации на..
 
                                     <a href="{{ site.baseurl }}">Подробнее</a>
-                                </p>                         
+                                                      
                                         <p class="subtitle is-7" style="margin-top: 1rem ;"> {{ post.date | date: "%b %-d, %Y" }} {{ post.author }}
                                         </p>
                                     </div>
                                
                             <div class="column">
-                                <figure class="image is-3by6">
+                                <figure class="image is-3by4">
                                     <img src="{{ site.baseurl }}/img/dash.png" alt="">
                                 </figure>
                             </div>
