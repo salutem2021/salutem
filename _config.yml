@@ -5,7 +5,7 @@ tagline: Salutem
 email: your-email@domain.com
 description: >
   
-baseurl: "{{ site.baseurl }}"
+baseurl: "/salutem"
 url: ""
 permalink: pretty
 

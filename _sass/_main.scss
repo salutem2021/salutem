@@ -1,7 +1,8 @@
 @charset "utf-8";
 
 // Fonts
-$family-sans-serif: "Helvetica Neue,Helvetica,Arial", sans-serif;
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
+$family-sans-serif: "Helvetica Neue,Helvetica,Arial" 'EB Garamond', sans-serif;
 $family-serif: "Helvetica Neue,Helvetica,Arial", cursive;
 $family-primary: $family-sans-serif;
 $family-secondary: $family-serif;
@@ -9,51 +10,6 @@ $title-family: $family-primary;
 $navbar-box-shadow-size: 5px !important;
 $navbar-box-shadow-color: hsl(0, 0%, 96%);
 $font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 28.8px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 700;
-  line-height: 26.4px;
-}
-h3 {
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 16.8px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 700;
-  line-height: 15.4px;
-}
-p {
-  font-family: Helvetica Neue, Helvetica, sans-serif;
-  font-size: 16.8px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 20px;
-}
-blockquote {
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 25.2px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 30px;
-}
-pre {
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 15.6px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 18.5667px;
-}
 
 // Colours
 $primary: #070707 !default;
