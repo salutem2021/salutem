@@ -1,22 +1,44 @@
 <!doctype html>
 <html>
+
 {% include head.html %}
+{% include dynamic-content.html %}
+<div class="box" style="background-color: rgb(89, 90, 89); color: white; height: 2rem;">
+<center>    <p style="padding-bottom: 10px;"> БЕСПЛАТНАЯ ДОСТАВКА ДЛЯ ВСЕХ ЗАКАЗОВ НА СУММУ БОЛЕЕ 1500 RUB | РОССИЯ</p>
+<br/><br/></center>
+</div>
 
 <body>
-    
+
     {% include navbar.html %}
+
     <div class="section">
         <div class="container">
             <div class="columns">
                 <div class="column">
+                    <a href=" {{site.baseurl}}/covid-category.html ">
                     <section
                         class="hero {% if page.authors_height %} {{ page.authors_height }} {% else %} is-small {% endif %} is-bold is-transparent"
                         {% if page.image %} style="background: url('{{ page.image | prepend: site.baseurl | immune }}')"
                         {% endif %}>
                         <div class="hero-body">
                             <div class="container">
-                                <img src="../img/announ.png" alt="">
-                                <p class="title is-5">ЗАЩИТА ОТ COVID-19</p>
+                                <img src="{{ site.baseurl }}/img/first-cover.jpg" alt="">
+                                <h1>ЗАЩИТА ОТ COVID-19</h1>
+                            </div>
+                        </div>
+                    </section>
+                </a>
+                </div>
+                <div class="column">
+                    <section
+                        class="hero {% if page.authors_height %} {{ page.authors_height }} {% else %} is-small {% endif %} is-bold is-transparent"
+                        {% if page.image %} style="background: url('{{ page.image | prepend: site.baseurl | immune }}')"
+                        {% endif %}>
+                        <div class="hero-body">
+                            <div class="container">
+                                <img src="{{ site.baseurl }}/img/first-cover.jpg" alt="">
+                                <h1>ВОССТАНОВЛЕНИЕ ПОСЛЕ ВАКЦИНЫ GENERAL</h1>
                             </div>
                         </div>
                     </section>
@@ -28,8 +50,8 @@
                         {% endif %}>
                         <div class="hero-body">
                             <div class="container">
-                                <img src="../img/announ.png" alt="">
-                                <p class="title is-5">ВОССТАНОВЛЕНИЕ ПОСЛЕ ВАКЦИНЫ GENERAL</p>
+                                <img src="{{ site.baseurl }}/img/first-cover.jpg" alt="">
+                                <h1>ВОССТАНОВЛЕНИЕ ПОСЛЕ ВАКЦИНЫ SPUTNIK-V (УСИЛЕННАЯ ФОРМУЛА)</h1>
                             </div>
                         </div>
                     </section>
@@ -41,71 +63,70 @@
                         {% endif %}>
                         <div class="hero-body">
                             <div class="container">
-                                <img src="../img/announ.png" alt="">
-                                <p class="title is-5">ВОССТАНОВЛЕНИЕ ПОСЛЕ ВАКЦИНЫ SPUTNIK-V (УСИЛЕННАЯ ФОРМУЛА)</p>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="column">
-                    <section
-                        class="hero {% if page.authors_height %} {{ page.authors_height }} {% else %} is-small {% endif %} is-bold is-transparent"
-                        {% if page.image %} style="background: url('{{ page.image | prepend: site.baseurl | immune }}')"
-                        {% endif %}>
-                        <div class="hero-body">
-                            <div class="container">
-                                <img src="../img/announ.png" alt="">
-                                <p class="title is-5">ВОССТАНОВЛЕНИЕ ПОСЛЕ ЗАРУБЕЖНЫХ ВАКЦИН (PFIZER, MODERNA)</p>
+                                <img src="{{ site.baseurl }}/img/first-cover.jpg" alt="">
+                                <h1>ВОССТАНОВЛЕНИЕ ПОСЛЕ ЗАРУБЕЖНЫХ ВАКЦИН (PFIZER, MODERNA)</h1>
                             </div>
                         </div>
                     </section>
                 </div>
             </div>
-
+<hr style="width: 100;">
         </div>
     </div>
     <div class="section">
         <div class="container">
             <div class="columns">
                 <div class="column">
-                    <section class="hero {% if page.authors_height %} {{ page.authors_height }} {% else %} is-small {% endif %} is-bold is-transparent" {% if page.image %} style="background: url('{{ page.image | prepend: site.baseurl | immune }}')" {% endif %}>
+                    <section
+                        class="hero {% if page.authors_height %} {{ page.authors_height }} {% else %} is-small {% endif %} is-bold is-transparent"
+                        {% if page.image %} style="background: url('{{ page.image | prepend: site.baseurl | immune }}')"
+                        {% endif %}>
                         <div class="hero-body">
                             <div class="container">
-                                <img src="../img/announ.png" alt="">
-                                <p class="title is-5">ПОДДЕРЖКА ИМУННОЙ СИСТЕМЫ</p>
+                                <img src="{{ site.baseurl }}/img/first-cover.jpg" alt="">
+                                <h1>ПОДДЕРЖКА ИМУННОЙ СИСТЕМЫ</h1>
                             </div>
                         </div>
-                    </section>    
+                    </section>
                 </div>
                 <div class="column">
-                    <section class="hero {% if page.authors_height %} {{ page.authors_height }} {% else %} is-small {% endif %} is-bold is-transparent" {% if page.image %} style="background: url('{{ page.image | prepend: site.baseurl | immune }}')" {% endif %}>
+                    <section
+                        class="hero {% if page.authors_height %} {{ page.authors_height }} {% else %} is-small {% endif %} is-bold is-transparent"
+                        {% if page.image %} style="background: url('{{ page.image | prepend: site.baseurl | immune }}')"
+                        {% endif %}>
                         <div class="hero-body">
                             <div class="container">
-                                <img src="../img/announ.png" alt="">
-                                <p class="title is-5">ЗДОРОВЬЕ ЖЕЛУДКА</p>
+                                <img src="{{ site.baseurl }}/img/first-cover.jpg" alt="">
+                                <h1>ЗДОРОВЬЕ ЖЕЛУДКА</h1>
                             </div>
                         </div>
-                    </section>                
+                    </section>
                 </div>
                 <div class="column">
-                    <section class="hero {% if page.authors_height %} {{ page.authors_height }} {% else %} is-small {% endif %} is-bold is-transparent" {% if page.image %} style="background: url('{{ page.image | prepend: site.baseurl | immune }}')" {% endif %}>
+                    <section
+                        class="hero {% if page.authors_height %} {{ page.authors_height }} {% else %} is-small {% endif %} is-bold is-transparent"
+                        {% if page.image %} style="background: url('{{ page.image | prepend: site.baseurl | immune }}')"
+                        {% endif %}>
                         <div class="hero-body">
                             <div class="container">
-                                <img src="../img/announ.png" alt="">
-                                <p class="title is-5">СПОКОЙНЫЙ СОН</p>
+                                <img src="{{ site.baseurl }}/img/first-cover.jpg" alt="">
+                                <h1>СПОКОЙНЫЙ СОН</h1>
                             </div>
                         </div>
-                    </section>                
+                    </section>
                 </div>
                 <div class="column">
-                    <section class="hero {% if page.authors_height %} {{ page.authors_height }} {% else %} is-small {% endif %} is-bold is-transparent" {% if page.image %} style="background: url('{{ page.image | prepend: site.baseurl | immune }}')" {% endif %}>
+                    <section
+                        class="hero {% if page.authors_height %} {{ page.authors_height }} {% else %} is-small {% endif %} is-bold is-transparent"
+                        {% if page.image %} style="background: url('{{ page.image | prepend: site.baseurl | immune }}')"
+                        {% endif %}>
                         <div class="hero-body">
                             <div class="container">
-                                <img src="../img/announ.png" alt="">
-                                <p class="title is-5">КРАСОТА ИЗНУТРИ</p>
+                                <img src="{{ site.baseurl }}/img/first-cover.jpg" alt="">
+                                <h1>КРАСОТА ИЗНУТРИ</h1>
                             </div>
                         </div>
-                    </section>                
+                    </section>
                 </div>
             </div>
 

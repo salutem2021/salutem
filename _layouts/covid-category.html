@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+
+
+{% include head.html %}
+
+<body>
+    {% include navbar.html %}
+
+    <hr style="width: 60% no-repeat center" />
+    <section class="section">
+        <div class="container">
+            <p class="subtitle is-3" style="text-align: center">Появились Вопросы о нашем контенте? Сообщите нам свои
+                мысли! 
+            </p>
+            <hr style="width: 60% no-repeat center" />
+            <p class="subtitle is-6" style="text-align: center">
+               <b> Salutem </b>был основан независимыми исследователями в области натуропатии в 2018 году с целью поделиться
+                новаторской и актуальной
+                информацией и ресурсами о естественном здоровье с общественностью - предоставить им инструменты,
+                позволяющие
+                контролировать свое здоровье.
+                <br /><br />
+                Salutem финансируется независимо и не принимает стороннюю рекламу или спонсорство. Мы никоим образом не
+                связаны с фармацевтическими фирмами или другими корпоративными интересами, которые могут повлиять на
+                нашу
+                честность. Следовательно, вы можете быть уверены, что полученные новости о здоровье и советы не
+                подменены
+                внешним влиянием.
+            </p>
+            <hr style="width: 60% no-repeat center" /> <br />
+            <p class="subtitle is-6" style="text-align: center"> Ваше мнение очень важно для нас!
+                Мы стремимся всегда предоставлять вам только достоверную, проверенную экспертами и основанную на фактах
+                информацию. Чтобы поддерживать этот высокий уровень содержания, мы призываем вас обращаться к нам и
+                оставлять отзывы о наших статьях и новостях о здоровье. Мы также с радостью ответим на ваши редакторские
+                вопросы и ответим на ваши вопросы в кратчайшие сроки.
+            </p>
+        </div>
+    </section>
+
+    <section class="section" style="position: relative;">
+    <div class="card">
+        <div class="container" style="padding: 3em ;">
+            <div class="field">
+                <label class="label">Как к Вам обращаться</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="Имя">
+                </div>
+            </div>
+
+
+
+            <div class="field">
+                <label class="label">Email</label>
+                <div class="control has-icons-left has-icons-right">
+                    <input class="input is-danger" type="email" placeholder="Email">
+                    <span class="icon is-small is-left">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    <span class="icon is-small is-right">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </span>
+                </div>
+                <p class="help is-danger">Обязательное поле</p>
+            </div>
+
+            <div class="field">
+                <label class="label">Запрос</label>
+                <div class="control">
+                    <div class="select">
+                        <select>
+                            <option>Сделать предзаказ</option>
+                            <option>Проконсультироваться</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Сообщение</label>
+                <div class="control">
+                    <textarea class="textarea" placeholder="Введите Ваше сообщение"></textarea>
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="control">
+                    <label class="checkbox">
+                        <input type="checkbox">
+                        Я согласен <a href="{{ site.baseurl }}/agreement/">с Пользовательским Соглашением На Обработку
+                            Персональных Данных</a>
+                    </label>
+                </div>
+            </div>
+
+            <div class="field is-grouped">
+                <div class="control">
+                    <button class="button is-danger">Отправить</button>
+                </div>
+                <div class="control">
+                    <button class="button is-link is-light">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+{% include footer.html %}
+
+</html>
