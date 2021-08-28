@@ -1,83 +1,53 @@
-<section class="section" style="position: relative;">   
-    <hr style="color: black !important; height:0.3rem; width:100%;">
 
-    <br />
-    <div class="container">
-        <p class="subtitle is-3">
-            <b>
-                ПОСЛЕДНИЕ НОВОСТИ
-            </b>
-        </p>
-        <div class="columns">
-            <div class="column">
-
-
-                {% if site.authors %}
-                <a href="{{ site.baseurl }}/first-news/">
-                    {% endif %}
-                    <article class="message is-dark">
-                        <div class="message-body">
-                            <h1> 
-                                <b>Новое Доказательство Показало Связь Между Загрязнением Воздуха и Альцгеймером</b>
-                            </h1>
-                            <br />
-                            <br />
-                            Люди, живущие в областях с наименьшим загрязнением воздуха имеют меньший риск заболевания
-                            Альцгеймером. Здесь перечислены другие модифицирующиеся и способствующие факторы которые
-                            повышают ваш риск.
-                            <br />
-                            <br />
-                            <br />
-                            <p class="subtitle is-7" style="color: black;">Размещено: {{ site.time }} </p>
-                        </div>
-                    </article>
-                </a>
-               
-
-            </div>
-
-            <div class="column">
-                {% if site.authors %}
-                <a href="{{ site.baseurl }}/second-news/">
-                    {% endif %}
-                    <article class="message is-dark">
-                        <div class="message-body">
-                            <h1 style="color: black;">
-                                <b>Медленная еда, а не фастфуд</b>
-                            </h1>
-                            <br />
-                            Пищевая ценность пищи, которую вы едите, важна для вашего здоровья в целом. Эта хозяйка
-                            обедов поставила перед собой цель пересмотреть свою программу школьных обедов, сосредоточив
-                            внимание на принципах «от фермы к столу» и отказавшись от фаст-фуда. Подумайте об этих
-                            простых изменениях дома.
-                            <br />    <br /> 
-                            <p class="subtitle is-7" style="color: black;">Размещено: {{ site.time }} </p>
-                        </div>
-                    </article>
-                </a>
-            </div>
-
-            <div class="column">
-                {% if site.authors %}
-                <a href="{{ site.baseurl }}/third-news/">
-                    {% endif %}
-                    <article class="message is-dark">
-                        <div class="message-body">
-                            <h1 style="color: black;">
-                                <b> Массовый психоз - как создать эпидемию психических заболеваний</b>
-                            </h1>
-                            <br />
-                           
-                            Что происходит, когда большая часть общества отрывается от реальности и погружается в
-                            иллюзии? Здесь есть все составляющие массового психоза - запугивание, ложь, фальшивые
-                            новости, изоляция, замешательство и тревога. Можем ли мы это остановить?
-                            <br /> <br />
-                            <br />
-                            <p class="subtitle is-7" style="color: black;">Размещено: {{ site.time }} </p>
-                        </div>
-                    </article>
-                </a>
-            </div>
-        </div>
+<div class="relative container rounded border shadow mb-8 mt-8">
+<div class="container mx-auto">
+<p class="text-lg font-bold">ПОСЛЕДНИЕ НОВОСТИ</p>
+<div class="grid grid-cols-3 divide-x divide-black-500 mt-8">
+   
+    <div class="object-contain">
+        <a class="no-underline hover:underline"  href="{{ site.baseurl }}/first-news/">  
+            <div class="text-base md:text-lg">
+                <span class="text-sm">
+                    <b>Новое Доказательство Показало Связь Между Загрязнением Воздуха и Альцгеймером</b>
+            
+                <br />
+                <br />
+                Люди, живущие в областях с наименьшим загрязнением воздуха имеют меньший риск заболевания
+                Альцгеймером. Здесь перечислены другие модифицирующиеся и способствующие факторы которые
+                повышают ваш риск.
+                </span>
+            </div>            
+        </a>
     </div>
-</section>
+    <div class="object-contain w-full">
+        <a href="{{ site.baseurl }}/second-news/">
+            <div class="text-base md:text-lg">
+                <span class="text-sm">
+                    <b>Медленная еда, а не фастфуд</b>
+              
+                <br />
+                Пищевая ценность пищи, которую вы едите, важна для вашего здоровья в целом. Эта хозяйка
+                обедов поставила перед собой цель пересмотреть свою программу школьных обедов, сосредоточив
+                внимание на принципах «от фермы к столу» и отказавшись от фаст-фуда. Подумайте об этих
+                простых изменениях дома.
+                <br />    <br /> 
+            </div>
+    </a>
+    </div>
+    <div class="object-contain w-full">
+        <a href="{{ site.baseurl }}/third-news/">      
+            <div class="text-base md:text-lg">
+                <span class="text-sm">
+                        <b> Массовый психоз - как создать эпидемию психических заболеваний</b>
+                    <br /> 
+                    Что происходит, когда большая часть общества отрывается от реальности и погружается в
+                    иллюзии? Здесь есть все составляющие массового психоза - запугивание, ложь, фальшивые
+                    новости, изоляция, замешательство и тревога. Можем ли мы это остановить?
+                    <br /> <br />
+                    <br />
+                </div>
+        </a>
+  </div>
+
+</div>
+</div> </div> 

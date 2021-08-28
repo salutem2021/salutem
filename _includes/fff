@@ -41,3 +41,78 @@
             </div>
 
         </div>
+
+
+<section class="section">
+    <div class="container">
+        <div class="has-text-centered">
+
+            <div class="buttons is-centered">
+
+                <a href="{{ page.facebook }}" class="button is-dark" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="{{ page.instagram }}" class="button is-dark" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="{{ page.telegram }}" class="button is-dark" target="_blank">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="{{ page.whatsapp }}" class="button is-dark" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+  
+            <hr />
+            <div class="columns">
+                <div class="column">
+              
+                    {% if site.authors %}
+                    <a href="{{ site.baseurl }}/health-articles/">
+                     
+                        <p>
+                            Статьи о здоровье
+                        </p>
+                        {% endif %}
+                    </a>
+                    <a href="">
+                        <p>
+                            Медиа-запросы
+                        </p>
+                    </a>
+
+                    <a href="">
+                        <p>
+                            О Salutem
+                        </p>
+                    </a>
+
+                </div>
+
+                <div class="column">
+                   
+                    <a href="{{ site.baseurl }}/contact-us/">
+                        <p>
+                            Свяжитесь с нами
+                        </p>
+                    </a>
+                    <a href="">
+                        <p>
+                            Пользовательское соглашение
+                        </p>
+                    </a>
+                    <a href="">
+                        <p>
+                            Политика приватности
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <p> <a href="/">2020-2021 Salutem Group. Все права защищены</a></p>
+        
+        </div>
+    </div>
+</section>
+<script src="{{ site.baseurl }}/assets/js/app.js" type="text/javascript"></script>
+
