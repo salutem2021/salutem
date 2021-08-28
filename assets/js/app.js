@@ -1,3 +1,4 @@
+import "tailwindcss/tailwind.css"
 document.addEventListener('DOMContentLoaded', () => {
 
   // Get all "navbar-burger" elements
