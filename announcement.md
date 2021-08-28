@@ -32,7 +32,7 @@ name: Кто Мы и Почему Важно Ознакомиться с Эти�
                 <div class="column">
                 </div>
                 <div class="column">
-                    <a href="{{ site.baseurl }}{{ post.url }}">
+                    <a href="{{ site.baseurl }}/top-story/">
                         <button class="button is-small is-danger"> < Предыдущая
                         </button></a>
                 </div>
