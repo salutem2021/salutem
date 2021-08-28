@@ -1,8 +1,8 @@
 ---
 youtubeId: pHq-QOZmJXo
 layout: second-news
-title: facts
-author: Salutem
----
 
+---
+<div>
 {% include youtubePlayer.html id=page.youtubeId %}
+</div>

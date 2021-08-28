@@ -1,27 +1,44 @@
 ---
-bitId: WZZX63rxON6s
 layout: post
-title: ТОП-ИСТОРИЙ
-author: dr. Salutem
-image: /img/how-mrna.jpg
-i: fas fa-star
 name: Визуальное Отображение Того, Как мРНК вакцина влияет на клетки
-short: Каждая доза вакцины Moderna COVID-19 откладывает 40 триллионов молекул мРНК в ваше тело...
 ---
 
-<html>
-<body>
-    <hr />
-    <div class="columns is-centered">
+ <div class="columns is-centered">
         <center>
             <h1 class="title is-2">
                 <br /> <br />
                 <strong>
-                    Визуальное отображение того, как мРНК-вакцина влияет на клетки</strong>
+                   Визуальное отображение того, как мРНК-вакцина влияет на клетки</strong>
                 <br /> 
             </h1>
         </center>
     </div>
+ <div class="container" style="padding-bottom: 2rem">
+            <div class="columns">
+                <div class="column is-7">
+                    <a href="{{ page.facebook }}" class="button is-light" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="{{ page.instagram }}" class="button is-light" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="{{ page.telegram }}" class="button is-light" target="_blank">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                    <a href="{{ page.whatsapp }}" class="button is-light" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+                <div class="column">
+                </div>
+                <div class="column">
+                    <a href="{{ site.baseurl }}/announcement/">
+                        <button class="button is-small is-danger"> Следующая >
+                        </button></a>
+                </div>
+            </div>
+            </div>
+ <div class="container" >
     <div class="columns is-centered">
         <div class="column is-8-desktop is-10-tablet">
             <div class="content is centered">
@@ -61,7 +78,6 @@ short: Каждая доза вакцины Moderna COVID-19 откладыва�
             <div class="section is-centered">
                 <center> {{ content }} </center>
             </div>
-            {% include bitchutePlayer.html id=page.bitId %}
             <div class="card">
                 <div class="card-content">
                     <div class="content">
@@ -132,7 +148,6 @@ short: Каждая доза вакцины Moderna COVID-19 откладыва�
 </p>
 <p class="subtitle is-3"> <strong>
 'Худшее еще впереди'
-
                     </strong>
                 </p>
                 <br /> <br />
@@ -201,7 +216,3 @@ short: Каждая доза вакцины Moderna COVID-19 откладыва�
                 </p>
             {% include book-ad.html %}
     {% include footer.html %}
-
-</body>
-
-</html>

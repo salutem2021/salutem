@@ -1,8 +1,9 @@
+<div class="container mx-auto">
 <a href="{{ site.baseurl }}/product-order/">
-    {% if page.image %}
+
     <section class="hero"
         style="background: url('{{ site.baseurl }}/img/virus1.jpg') no-repeat center center; background-size: cover; height: 17rem;">
-        {% endif %}
+ 
         <div class="hero-body">
             <div class="container">
                 <div class="columns">
@@ -18,9 +19,11 @@
                     </div>
                     <div class="column">
                         <div class="centered" style="padding-top: 5rem;">
-                            <button class="button is-large" style="background-color: rgb(185, 5, 5); color: white">
+                            <button class="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 border-b-4 border-red-700 hover:border-blue-500 rounded">
                                 Заказать
-                                Сейчас</button>
+                                Сейчас
+                              </button>
+                            
                         </div>
                     </div>
                 </div>
@@ -29,3 +32,4 @@
     </section>
 
 </a>
+</div>
