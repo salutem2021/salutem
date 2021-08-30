@@ -1,7 +1,6 @@
 ---
 youtubeId: 09maaUaRT4M
 layout: third-news
-title: third-news
 intro: Массовый психоз - как создать эпидемию психических заболеваний 
 author: Salutem
 ---

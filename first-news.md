@@ -1,9 +1,7 @@
 ---
-layout: first-news
-title: first-news
+layout: new
+title: nov
 description: Факты 
-intro: ОБЗОР ИСТОРИИ 
-alt: logo
 ---
 
 <div class="columns is-centered">

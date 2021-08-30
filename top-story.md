@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: new
 name: Визуальное Отображение Того, Как мРНК вакцина влияет на клетки
 ---
 
- <div class="columns is-centered">
+ <div class="">
         <center>
             <h1 class="title is-2">
                 <br /> <br />

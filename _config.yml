@@ -60,16 +60,6 @@ defaults:
     values:
       layout: "nature"
 
-  -
-    scope:
-      path: ""
-      type: "news"
-    values:
-      author: "Salutem"
-      layout: news
-      image: /img/home.png
-      show_sidebar: true
-
 
 collections:
   authors:
