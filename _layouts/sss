@@ -159,3 +159,258 @@
         </div>
     </div>
 </section>
+
+
+
+hero
+
+    {% if page.image %}
+    <section class="hero"
+        style="background: url('{{ site.baseurl }}/img/virus1.jpg') no-repeat center center; background-size: cover; height: 17rem;">
+        {% endif %}
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-6">
+                        <p class="title is-4" style="color: white">Правда О COVID-19</p>
+                        <hr style="width: 70%; " />
+                        <p class="subtitle is-5" style="color: white">Книга От Независимых Натуропатов</p>
+                    </div>
+                    <div class="column">
+                        <figure class="image is-128x128">
+                            <img src="{{ site.baseurl }}/img/book1.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="column">
+                        <div class="centered" style="padding-top: 5rem;">
+                            <button class="button is-large" style="background-color: rgb(185, 5, 5); color: white">
+                                Заказать
+                                Сейчас</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="rounded overflow-hidden shadow-lg">
+        <div class="w-full lg:max-w-full lg:flex">
+           <div class="w-16 md:w-32 lg:w-48 h-60 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url('img/how-mrna.jpg')" title="Forest">
+           </div>
+           <a href="{{ site.baseurl }}/top-story/">
+           <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+             <div class="mb-8">
+               <p class="text-sm text-gray-600 flex items-center">
+                 <svg class="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                   <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
+                 </svg>
+                 Members only
+               </p>
+               <div class="text-gray-900 font-bold text-xl mb-2">ТОП-ИСТОРИЙ</div>
+               <p class="text-gray-700 text-base">     Каждая доза вакцины Moderna COVID-19 откладывает 40 триллионов молекул мРНК в ваше тело..
+              
+                <a href="{{ site.baseurl }}/top-story/">Подробнее</a>
+             
+               </p>
+             </div>
+           
+             <div class="px-6 pt-4 pb-2">
+                 <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+                 <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                 <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+               </div>
+             </div>
+             </a>
+           </div>
+         </div>
+
+
+
+
+    <div class="rounded overflow-hidden shadow-lg">
+        <div class="w-full lg:max-w-full lg:flex">
+            <div class="h-60 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+                style="background-image: url('img/dash.png')" title="Forest">
+            </div>
+            <a href="{{ site.baseurl }}/announcement/">
+                <div
+                    class="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+                    <div class="mb-8">
+                        <p class="text-sm text-gray-600 flex items-center">
+                            <svg class="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20">
+                                <path
+                                    d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
+                            </svg>
+                            Members only
+                        </p>
+                        <div class="text-gray-900 font-bold text-xl mb-2">ВАЖНОЕ ОБЪЯВЛЕНИЕ</div>
+                        <p class="text-gray-700 text-base"> Кто Мы и Почему Важно Ознакомиться с Данным Объявлением
+                            <br />
+
+                            <a href="{{ site.baseurl }}/announcement/">Подробнее</a>
+
+                        </p>
+                        </p>
+                    </div>
+                    <div class="px-6 pt-4 pb-2">
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+
+
+    
+  <div class="columns">
+    <div class="column is-6">
+      
+        <hr style="width: 70%; " />
+        <p class="subtitle is-5" style="color: white">Книга От Независимых Натуропатов</p>
+    </div>
+    <div class="column">
+        <figure class="image is-128x128">
+            <img src="{{ site.baseurl }}/img/book1.png" alt="">
+        </figure>
+    </div>
+    <div class="column">
+        <div class="centered" style="">
+            <button class="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded">
+                Заказать
+                Сейчас
+              </button>
+            
+        </div>
+    </div>
+</div>
+
+
+
+  
+    <div class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <a href=" {{site.baseurl}}/covid-category.html ">
+                    <section
+                        class="hero {% if page.authors_height %} {{ page.authors_height }} {% else %} is-small {% endif %} is-bold is-transparent"
+                        {% if page.image %} style="background: url('{{ page.image | prepend: site.baseurl | immune }}')"
+                        {% endif %}>
+                        <div class="hero-body">
+                            <div class="container">
+                                <img src="{{ site.baseurl }}/img/help1.png" alt="">
+                                <h1>ЗАЩИТА ОТ COVID-19</h1>
+                            </div>
+                        </div>
+                    </section>
+                </a>
+                </div>
+                <div class="column">
+                    <section
+                        class="hero {% if page.authors_height %} {{ page.authors_height }} {% else %} is-small {% endif %} is-bold is-transparent"
+                        {% if page.image %} style="background: url('{{ page.image | prepend: site.baseurl | immune }}')"
+                        {% endif %}>
+                        <div class="hero-body">
+                            <div class="container">
+                                <img src="{{ site.baseurl }}/img/1.png" alt="">
+                                <h1>ВОССТАНОВЛЕНИЕ ПОСЛЕ ВАКЦИНЫ GENERAL</h1>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="column">
+                    <section
+                        class="hero {% if page.authors_height %} {{ page.authors_height }} {% else %} is-small {% endif %} is-bold is-transparent"
+                        {% if page.image %} style="background: url('{{ page.image | prepend: site.baseurl | immune }}')"
+                        {% endif %}>
+                        <div class="hero-body">
+                            <div class="container">
+                                <img src="{{ site.baseurl }}/img/first-cover.jpg" alt="">
+                                <h1>ВОССТАНОВЛЕНИЕ ПОСЛЕ ВАКЦИНЫ SPUTNIK-V (УСИЛЕННАЯ ФОРМУЛА)</h1>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="column">
+                    <section
+                        class="hero {% if page.authors_height %} {{ page.authors_height }} {% else %} is-small {% endif %} is-bold is-transparent"
+                        {% if page.image %} style="background: url('{{ page.image | prepend: site.baseurl | immune }}')"
+                        {% endif %}>
+                        <div class="hero-body">
+                            <div class="container">
+                                <img src="{{ site.baseurl }}/img/first-cover.jpg" alt="">
+                                <h1>ВОССТАНОВЛЕНИЕ ПОСЛЕ ЗАРУБЕЖНЫХ ВАКЦИН (PFIZER, MODERNA)</h1>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+<hr style="width: 100;">
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <section
+                        class="hero {% if page.authors_height %} {{ page.authors_height }} {% else %} is-small {% endif %} is-bold is-transparent"
+                        {% if page.image %} style="background: url('{{ page.image | prepend: site.baseurl | immune }}')"
+                        {% endif %}>
+                        <div class="hero-body">
+                            <div class="container">
+                                <img src="{{ site.baseurl }}/img/first-cover.jpg" alt="">
+                                <h1>ПОДДЕРЖКА ИМУННОЙ СИСТЕМЫ</h1>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="column">
+                    <section
+                        class="hero {% if page.authors_height %} {{ page.authors_height }} {% else %} is-small {% endif %} is-bold is-transparent"
+                        {% if page.image %} style="background: url('{{ page.image | prepend: site.baseurl | immune }}')"
+                        {% endif %}>
+                        <div class="hero-body">
+                            <div class="container">
+                                <img src="{{ site.baseurl }}/img/first-cover.jpg" alt="">
+                                <h1>ЗДОРОВЬЕ ЖЕЛУДКА</h1>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="column">
+                    <section
+                        class="hero {% if page.authors_height %} {{ page.authors_height }} {% else %} is-small {% endif %} is-bold is-transparent"
+                        {% if page.image %} style="background: url('{{ page.image | prepend: site.baseurl | immune }}')"
+                        {% endif %}>
+                        <div class="hero-body">
+                            <div class="container">
+                                <img src="{{ site.baseurl }}/img/first-cover.jpg" alt="">
+                                <h1>СПОКОЙНЫЙ СОН</h1>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="column">
+                    <section
+                        class="hero {% if page.authors_height %} {{ page.authors_height }} {% else %} is-small {% endif %} is-bold is-transparent"
+                        {% if page.image %} style="background: url('{{ page.image | prepend: site.baseurl | immune }}')"
+                        {% endif %}>
+                        <div class="hero-body">
+                            <div class="container">
+                                <img src="{{ site.baseurl }}/img/first-cover.jpg" alt="">
+                                <h1>КРАСОТА ИЗНУТРИ</h1>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
