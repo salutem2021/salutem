@@ -56,13 +56,14 @@ defaults:
   -
     scope:
       path: ""
-      type: "natures"
+      type: "products"
     values:
-      layout: "nature"
+      layout: "product"
 
 
 collections:
   authors:
     output: true
-
+  products:
+    output: true
 

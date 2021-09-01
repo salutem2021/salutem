@@ -1,0 +1,54 @@
+{% include head.html %}
+{% include navbar.html %}
+
+
+  <div class="antialiased text-gray-900 font-sans p-6">
+    <div class="flex">
+        <a  href="{{ site.baseurl }}/products/ " @endif
+            class="flex text-gray-100 justify-center transition duration-200 ease-in-out transform px-4 py-2 w-48 border-b-4 border-yellow-500 hover:border-b-2 bg-gradient-to-t from-yellow-400  via-yellow-600 to-yellow-200 rounded-2xl hover:translate-y-px "
+            style="-webkit-box-shadow: 0px 10px 13px -7px #f7d567, 5px 5px 15px 8px rgba(0,0,0,0); 
+            box-shadow: 0px 10px 13px -7px #f7e707, 5px 5px 15px 5px rgba(0,0,0,0);">
+            <span class="font-bold">
+            Вернуться</span>
+        </a>
+    </div>
+    <div class="container mx-auto">
+      <div class="flex flex-wrap -mx-5 mt-8">
+        <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/2 p-10">
+            <a href="{{ site.baseurl }}/product-one/">
+            <div class=" w-80 bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl hover:scale-105 duration-500 transform transition cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1577982787983-e07c6730f2d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=859&q=80" alt="">
+                <div class="p-5">
+                  <h1 class="text-2xl font-bold">El poder de la lampara</h1>
+                  <p class="mt-2 text-lg font-semibold text-gray-600">by John Smith</p>
+                  <p class="mt-1 text-gray-500 font-">Lorem ipsum carrots, enhanced undergraduate developer, 
+                    but they do occaecat time and vitality, Lorem ipsum carrots, 
+                    enhanced undergraduate developer, but they do occaecat time 
+                    and vitality</pa>
+                </div>
+              </div>
+            </a>
+            </div>
+
+              <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/2 p-10">
+                <a href="{{ site.baseurl }}/product-2/">
+                <div class=" w-80 bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl hover:scale-105 duration-500 transform transition cursor-pointer">
+                    <img src="https://images.unsplash.com/photo-1577982787983-e07c6730f2d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=859&q=80" alt="">
+                    <div class="p-5">
+                      <h1 class="text-2xl font-bold">El poder de la lampara</h1>
+                      <p class="mt-2 text-lg font-semibold text-gray-600">by John Smith</p>
+                      <p class="mt-1 text-gray-500 font-">Lorem ipsum carrots, enhanced undergraduate developer, 
+                        but they do occaecat time and vitality, Lorem ipsum carrots, 
+                        enhanced undergraduate developer, but they do occaecat time 
+                        and vitality</pa>
+                    </div>
+                  </div>
+                </a>
+                </div>
+                
+        </div>
+    </div>
+  </div>
+</div>
+
+{% include footer.html %}
