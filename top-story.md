@@ -2,8 +2,7 @@
 bitchuteId: uD98ksu0PzQg
 layout: new
 ---
-
-<body>  
+<div class="content">
     <div class="md:flex items-center justify-center mt-8 mb-8">
         <h1 class="text-4xl text-center font-bold bt-16"> 
                Визуальное отображение того, как мРНК-вакцина влияет на клетки
@@ -79,7 +78,9 @@ layout: new
     </div>
     </div>
              <br /> <br />
+             <div class="section">
              <div class="container mx-auto">
+             <div class="content">
              <p class="text-lg">
              Доктор Чарльз Хоффе, семейный врач из Литтона, Британская Колумбия, написал доктору Бонни Генри, Британская Колумбия. провинциальный офицер здравоохранения, в апреле 2021 года с серьезными опасениями по поводу вакцин против COVID-19. Один из его пациентов умер после выстрела, а у шести других были побочные эффекты. Хотя в их маленьком городке не было случаев COVID-19, Хоффе сказал, что вакцина наносит серьезный ущерб, и полагал, что «эта вакцина явно более опасна, <a class="underline" href="https://www.cbc.ca/news/canada/british-columbia/bc-doctors-misinformation-covid-19-1.6021489">чем COVID-19».</a>
              <br /><br />         
@@ -186,6 +187,7 @@ layout: new
     <br /> <br />
     Хоффе, безусловно, испытал это, но все еще высказывается, ставя своих пациентов на первое место и пытаясь сообщить, что, по его мнению, программа вакцинации COVID-19 должна быть остановлена ​​до тех пор, пока не будут выяснены причины многих <a class="underline" href="https://childrenshealthdefense.org/defender/rfk-jr-the-defender-podcast-dr-charles-hoffe-adverse-health-effects-covid-vaccine/">Трагический вопрос.</a> сколько других людей с подобными проблемами были запуганы и заставили их хранить молчание?
     </p>  
+    </div></div></div>
     <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
     <script>addBackToTop({
     diameter: 56,
@@ -193,6 +195,6 @@ layout: new
     textColor: '#fff'
     })</script>
     {% include book-ad.html %}
-    {% include footer.html %}
+
     
     

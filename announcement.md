@@ -114,4 +114,4 @@ name: Кто Мы и Почему Важно Ознакомиться с Эти�
     textColor: '#fff'
     })</script>
      {% include book-ad.html %}
-    {% include footer.html %}
+  
