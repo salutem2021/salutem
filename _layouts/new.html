@@ -1,33 +1,13 @@
-<!doctype html>
-<html>
+
 {% include head.html %}
+{% include navbar.html %}
+ 
 
-<body>
-    {% include navbar.html %}
-    <hr />
-    {% if page.intro %}
-    <div class="intro">
-        <div class="columns is-centered">
-            {% if page.intro_image %}
-            <div class="column is-8-desktop is-6-tablet">
-                <figure
-                    class="image {% if page.intro_image_ratio %} {{ page.intro_image_ratio }} {% else %} is-16by9 {% endif %}">
-                    <img src="{{ page.intro_image | prepend: site.baseurl }}" alt="{{ page.title }}" />
-                </figure>
-            </div>
-            {% endif %}
-            <div class="column is-4-desktop is-6-tablet">
-                <p class="title is-2" style="color:rgb(209, 4, 4)">{{ page.intro }}</p>
-            </div>
+    <div class="md:flex items-center justify-center mt-8 mb-8"">
+        <div class="content">
+       {{ content }}
         </div>
-    </div>
-    {% endif %}
+</div>
 
-    <div class="columns is-centered">
-        <div class="column is-8-desktop is-10-tablet">
-            <div class="content">
-           {{ content }}
-            </div>
-
-        </div>
-    </div>
+  
+  
