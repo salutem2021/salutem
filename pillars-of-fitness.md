@@ -1,7 +1,8 @@
 ---
 layout: fitness
 title: Столпы Фитнеса
-button: Пре-Воркаут Протеины
+but: Пре-Воркаут 
+ton: Протеины
 link: proteins
 ---
 

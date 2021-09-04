@@ -1,7 +1,8 @@
 ---
 layout: fitness
 title: Протеины
-button: Пре-Воркаут Предотвращение Травм
+but: Пре-Воркаут 
+ton: Предотвращение Травм
 link: injury-prevention
 ---
 
