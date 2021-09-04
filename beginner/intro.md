@@ -1,6 +1,6 @@
 ---
 layout: fitness
-title: Добро пожаловать в фитнес-план для начинающих!
+title: Добро Пожаловать На Фитнес-План Для Начинающих!
 but: Новички
 ton: ИТВИ
 link: beginner/itvi
@@ -11,6 +11,7 @@ link: beginner/itvi
 План для новичков подходит вам, если вы новичок в тренировках или начинаете снова после долгого перерыва. Это можно делать дома три раза в неделю, используя эспандер или упражнения с собственным весом.
 <br/><br/>
 Для этого плана ваш еженедельный график тренировок будет включать:
+</p>
 <br/><br/>
    <li class="text-xl font-bold">
    Один день высокоинтенсивной интервальной тренировки (ИТВИ)
@@ -24,10 +25,8 @@ link: beginner/itvi
         Три дня отдыха, посещения сауны или медитации
         </li>
 <br/><br/>
-   <li class="text-xl font-bold">
+  <p class="text-xl font-bold leading-relaxed">
 Вот расписание тренировок, которому нужно следовать: 
-</li>
-<br/><br/>
-<div class="container">
-  <img class="object-contain h-48" src="{{ site.baseurl }}/img/daily.png" alt="">
+</p>
+  <img class="object-contain h-48" src="{{ site.baseurl }}/img/beginner/daily.png" alt="">
 </div>
