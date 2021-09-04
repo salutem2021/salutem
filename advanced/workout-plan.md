@@ -1,9 +1,9 @@
 ---
 layout: fitness
 title:  Воркаут План Для Умеренно-Подготовленных
-but: Продвинутый
+but: Медиум
 ton:  Интро
-link: advanced/intro
+link: medium/intro
 ---
 
 <div class="min-h-screen section">
