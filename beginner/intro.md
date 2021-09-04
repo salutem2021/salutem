@@ -28,6 +28,6 @@ link: beginner/itvi
 Вот расписание тренировок, которому нужно следовать: 
 </li>
 <br/><br/>
-<div class="">
+<div class="container">
   <img class="object-contain h-48" src="{{ site.baseurl }}/img/daily.png" alt="">
 </div>
