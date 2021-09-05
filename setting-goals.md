@@ -3,6 +3,7 @@ layout: fitness
 title: Ставим Цели
 but: Пре-Воркаут
 ton: Столпы Фитнеса
+description: 
 link: pillars-of-fitness
 ---
 <div class="section">

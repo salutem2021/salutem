@@ -1,7 +1,7 @@
 ---
 layout: fitness
 title: Добро Пожаловать На Расширенный Фитнес-Пла!
-but: Продивинутый
+but: Продвинутый
 ton: ИТВИ
 link: advanced/itvi
 ---
