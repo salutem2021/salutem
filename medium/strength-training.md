@@ -8,7 +8,7 @@ link: medium/workout-plan
 
 
 <div class="section">
-<p class="text-xl font-bold leading-relaxed">
+<p class="text-xl font-semibold leading-relaxed">
 <br/><br/>
 На силовые упражнения необходимо два дня. В этом видео тренер Salutem Group проведет вас через силовые упражнения:
 <br/><br/>
@@ -29,33 +29,33 @@ link: medium/workout-plan
 Приседания относительно просты в выполнении и могут выполняться в любом месте без специального оборудования. Если вы ищете упражнение, которое может принести пользу всему телу, приседания идеальны, потому что они могут помочь:
 <br/><br/>
   </p>
-<li class="text-xl font-bold leading-relaxed">
+<li class="text-xl font-semibold leading-relaxed">
 Увеличьте выработку оксида азота (NO) в вашем организме
-</li><br/><br/>
-<li class="text-xl font-bold leading-relaxed">
+</li>
+<li class="text-xl font-semibold leading-relaxed">
      Наращивайте мышцы по всему телу
-</li><br/><br/>
-<li class="text-xl font-bold leading-relaxed">
+</li>
+<li class="text-xl font-semibold leading-relaxed">
      Укрепите мышцы пресса и ягодиц
-</li><br/><br/>
-<li class="text-xl font-bold leading-relaxed">
+</li>
+<li class="text-xl font-semibold leading-relaxed">
     Сжечь больше жира
-</li><br/><br/>
-<li class="text-xl font-bold leading-relaxed">
+</li>
+<li class="text-xl font-semibold leading-relaxed">
   Улучшить подвижность и равновесие
-</li><br/><br/>
-<li class="text-xl font-bold leading-relaxed">
+</li>
+<li class="text-xl font-semibold leading-relaxed">
    Снижение риска спортивных травм
-   </li><br/><br/>
-<li class="text-xl font-bold leading-relaxed">
+   </li>
+<li class="text-xl font-semibold leading-relaxed">
    Повышают чувствительность к инсулину
-</li><br/><br/>
-<li class="text-xl font-bold leading-relaxed">
+</li>
+<li class="text-xl font-semibold leading-relaxed">
    Содействовать удалению отходов организма и эффективной доставке питания в ткани 
-   </li><br/><br/>
+   </li><br/>
 
 
-<p class="text-xl font-bold leading-relaxed">
+<p class="text-xl font-semibold leading-relaxed">
 <br/><br/>
 <strong class="text-4xl">
 Чтобы выполнять приседания безопасно и эффективно, выполните следующие действия:
@@ -73,10 +73,10 @@ link: medium/workout-plan
 Планка и отжимания - примеры эффективных упражнений для всего тела, которые можно выполнять практически где угодно. Планка подразумевает отрыв тела от земли жесткой прямой линией. Нижняя часть спины не должна провисать, колени должны быть прямыми, а пресс - напряженным. Отжимания имеют некоторые общие черты с планкой, в том числе удержание тела жестким и прямым во время упражнения. На самом деле, планки иногда называют предварительными отжиманиями.
 <br/><br/>
 Если вам интересно, что лучше, планка или отжимания, это все равно, что сравнивать яблоки с апельсинами. Лучше всего включать их обоих в свои тренировки. Однако, если вам нужны вариации на этом уровне, вы можете попробовать планку для отжиманий, которая сочетает в себе эти два упражнения и дает вам преимущества обоих. Вот как это сделать:
-<br/><br/>
- <br/><br/> 1.  Начните с положения планки.
- <br/><br/> 2.  Опуститесь в позицию отжимания.
- <br/><br/> 3.  Снова встаньте на доску.
+<br/> 
+ <br/> 1.  Начните с положения планки.
+ <br/> 2.  Опуститесь в позицию отжимания.
+ <br/> 3.  Снова встаньте на доску.
  <br/><br/>
 Планка для отжиманий может показаться чрезвычайно сложной и утомительной, но эта комбинация может помочь вам укрепить мышцы кора и повысить силу верхней и нижней части тела, воздействуя на плечи, руки и мышцы кора.
  <br/><br/>
@@ -91,12 +91,12 @@ link: medium/workout-plan
 <br/><br/>
 Существуют различные типы эластичных лент, в том числе терапевтические ленты, эластичные ленты для компактных или подходящих трубок и боковые ленты сопротивления. Использование этих различных типов поможет вам легко воздействовать на различные мышцы, такие как ноги, бедра, <a class="text-blue-600" href="https://shcs.ucdavis.edu/health-and-wellness/physical-activity"> ягодицы и руки.</a> Эти ремешки также имеют разное сопротивление, поэтому вы можете выбрать тот, который соответствует вашему текущему уровню физической подготовки, и просто увеличивать сложность, когда ваша сила улучшится. . Вот некоторые из преимуществ для здоровья, которые вы можете получить, добавив в свой распорядок тренировок:
 <br/><br/></p>
-   <br/><br/><li class="text-xl font-bold leading-relaxed"> Повышение мышечной <a class="text-blue-600" href="https://www.stack.com/a/resistance-band-workout">выносливости</a></li>
-   <br/><br/><li class="text-xl font-bold leading-relaxed"> Повышение работоспособности и <a class="text-blue-600" href="https://shcs.ucdavis.edu/health-and-wellness/physical-activity">силы</a></li>
-   <br/><br/><li class="text-xl font-bold leading-relaxed"> Повышение мобильности, маневренности, координации и <a class="text-blue-600" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5140827/">гибкости</a></li>
-   <br/><br/><li class="text-xl font-bold leading-relaxed"> Содействие развитию функциональных мышечных <a class="text-blue-600" href="https://drjohnrusin.com/how-to-use-band-training/">движений</a></li>
+   <li class="text-xl font-semibold leading-relaxed"> Повышение мышечной <a class="text-blue-600" href="https://www.stack.com/a/resistance-band-workout">выносливости</a></li>
+   <li class="text-xl font-semibold leading-relaxed"> Повышение работоспособности и <a class="text-blue-600" href="https://shcs.ucdavis.edu/health-and-wellness/physical-activity">силы</a></li>
+   <li class="text-xl font-semibold leading-relaxed"> Повышение мобильности, маневренности, координации и <a class="text-blue-600" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5140827/">гибкости</a></li>
+   <li class="text-xl font-semibold leading-relaxed"> Содействие развитию функциональных мышечных <a class="text-blue-600" href="https://drjohnrusin.com/how-to-use-band-training/">движений</a></li>
 
-<p class="text-xl font-bold leading-relaxed">
+<p class="text-xl font-semibold leading-relaxed">
 <br/><br/>
 Кроме того, эластичные ленты способствуют изменению скорости движения, помогают вашим мышцам адаптироваться к изменениям и могут минимизировать риск падений и других травм, помогая повысить вашу <a class="text-blue-600" href="https://stroops.com/resistance-bands-vs-free-weights/"> функциональную силу.</a> Они также могут помочь активировать больше мышц и нейронов во время тренировки за счет нацеливания на разные области и облегчения движения через четыре плоскости.
 <br/><br/>
@@ -108,19 +108,19 @@ link: medium/workout-plan
 Хотя эспандеры обычно безопасны для использования во время тренировок, в некоторых случаях они могут вызвать дискомфорт или легкие травмы. Вот несколько советов, которые помогут снизить эти <a class="text-blue-600" href="https://shcs.ucdavis.edu/health-and-wellness/physical-activity"> риски:</a> 
 <br/><br/>
 </p>
-<li class="text-xl font-bold leading-relaxed">
+<li class="text-xl font-semibold leading-relaxed">
     <strong>Дважды проверьте свои эспандеры на наличие трещин, разрывов, проколов или слабых мест - </strong> Это снизит вероятность того, что ваши эспандеры могут сломаться во время тренировки или отсоединиться от ручек.
     </li><br/><br/>
-<li class="text-xl font-bold leading-relaxed">
+<li class="text-xl font-semibold leading-relaxed">
    <strong> Используйте эспандеры, когда тренируетесь на коврах, деревянных полах или любых не шероховатых поверхностях -</strong>Шероховатые поверхности могут повредить эспандеры и сделать их хрупкими в долгосрочной перспективе.
     </li><br/><br/>
-<li class="text-xl font-bold leading-relaxed">
+<li class="text-xl font-semibold leading-relaxed">
     <strong>Закрепите трубку эспандера перед тренировкой -</strong>Перед началом тренировки убедитесь, что трубка эспандера надежно закреплена под ногами.
     </li><br/><br/>
-<li class="text-xl font-bold leading-relaxed">
+<li class="text-xl font-semibold leading-relaxed">
     <strong>Храните эластичные ленты вдали от прямых солнечных лучей или в местах с высокой температурой- </strong> Воздействие высоких температур и агрессивных химикатов, таких как хлор в бассейнах, может снизить прочность эластичных лент, что может привести к поломке и травмам.
   </li><br/><br/>
-  <p class="text-xl font-bold leading-relaxed">
+  <p class="text-xl font-semibold leading-relaxed">
   
   Жим от груди и плеч, тяги, сгибания на бицепс, разгибание на трицепс, приседания и отжимания - вот лишь некоторые из движений, которые вы можете выполнять с эластичными лентами. Выполнение любого из этих упражнений с отягощениями позволяет вам проработать и задействовать почти все основные группы мышц вашего тела, а также поможет улучшить вашу выносливость, гибкость, силу и диапазон движений.
 Обратите внимание на правильный способ отжимания
@@ -141,7 +141,7 @@ link: medium/workout-plan
 <img class="object-center md:object-top" src="{{ site.baseurl }}/img/medium/correct-pushup.jpg" alt="">
  </div>
 <div class="section">
-<p class="text-xl font-bold leading-relaxed">
+<p class="text-xl font-semibold leading-relaxed">
 <br/><br/><br/>
  <strong class="text-4xl">
 Как делать приседания с набивным мячом
@@ -154,8 +154,8 @@ link: medium/workout-plan
 Из-за веса мяча это сложная форма приседания, поэтому для этого упражнения требуется высокий уровень физической подготовки. Чтобы выполнить приседание с набивным мячом:
 <br/><br/>
     Лягте на пол, выпрямите спину и согните колени под углом 90 градусов.
-   <br/><br/> 1. Поместите набивной мяч на грудь и крепко держите его.
-   <br/><br/> 2. Поднимая туловище, держите мяч на груди, с хрустом приближаясь к коленям.
-   <br/><br/> 3. Сделайте паузу, а затем вернитесь в исходное положение.
+   <br/> 1. Поместите набивной мяч на грудь и крепко держите его.
+   <br/> 2. Поднимая туловище, держите мяч на груди, с хрустом приближаясь к коленям.
+   <br/> 3. Сделайте паузу, а затем вернитесь в исходное положение.
    </p>
 <br/><br/>

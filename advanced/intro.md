@@ -1,9 +1,9 @@
 ---
 layout: fitness
-title: Добро Пожаловать На Расширенный Фитнес-Пла!
+title: Добро Пожаловать На Расширенный Фитнес-План!
 but: Продвинутый
-ton: ИТВИ
-link: advanced/itvi
+ton: Силовая Тренировка
+link: advanced/strength-training
 ---
 <div class="section">
 <p class="text-xl font-bold leading-relaxed">

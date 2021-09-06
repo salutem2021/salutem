@@ -3,7 +3,7 @@ layout: fitness
 title:  Воркаут План Для Умеренно-Подготовленных
 but: Пост-Воркаут
 ton:  Дни Отдыха
-link: postworkout/rest-days
+link: advanced/intro
 ---
 
 <div class="min-h-screen section">
