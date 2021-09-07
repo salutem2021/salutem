@@ -1,344 +1,54 @@
 ---
 layout: fitness
-title:  Воркаут План Для Умеренно-Подготовленных
+title: Дополнительные Ресурсы
+direct: < Предыдущая
 but: Пост-Воркаут
-ton:  Дни Отдыха
-link: advanced/intro
+ton:   Фитнес Добавки
+link: postworkout/fitness-supp
 ---
 
 <div class="min-h-screen section">
 <p class="text-xl font-bold leading-relaxed">
 <br/><br/>
-Используйте этот недельный план в качестве руководства и ознакомьтесь с распорядком дня, который вам в идеале следует выполнять в определенный день:
-<br/><br/> 
-</p>
-<div class="container">
-<img class="object-contain h-48 w-full" src="{{ site.baseurl }}/img/advanced/plan-.png" alt="">
-</div>
+Недостаточно просто достичь своих целей в фитнесе - вы также должны поддерживать свои цели, чтобы ваш тяжелый труд не пропал даром. Для этого следует внимательно относиться к своему питанию и фитнесу. Ниже приведены ресурсы, содержащие обширную информацию, которая поможет вам поддерживать оптимальную физическую форму.
+<br/><br/> <br/> 
+<strong class="text-4xl capitalize">
+Факты о еде</strong>
+<br/><br/>
 
-<div class="container mt-8">
-<div class="bg-blue-700">
-    <div class="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between flex-wrap">
-        <div class="w-0 flex-1 flex items-center">
-          <p class="text-xl font-bold text-white text-center">
-            <span class="md:flex">
-              Понедельник - Силовая Тренировка День Первый  (20-25 минут) Добавьте Тренировку с Ограничением Кровотока
-            </span>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div> 
-</div>
-<div class="flex justify-center items-center px-20">
-<p class="text-xl font-bold leading-relaxed mt-8">
-Выполните три подхода по 8-12 повторений в каждом:
+Пища, которую вы едите, оказывает огромное влияние не только на ваше общее состояние здоровья, но и на те преимущества, которые вы в конечном итоге получите от тренировок. То, что вы едите, может как улучшить вашу физическую форму, так и снизить ее, и, если вы посвящаете свое время упражнениям, вам нужно использовать пищу для достижения своих целей, а не для их снижения.
+<br/><br/>
+Чтобы узнать больше о еде и убедиться, что вы едите только лучшие сорта, я рекомендую вам посетить мой каталог <a class="text-blue-600" href="{{ site.baseurl}}/food-facts/"> ФАКТЫ О ЕДЕ.</a> Это подробное руководство может предоставить вам ценную информацию, факты о питании и советы по приготовлению различных продуктов, которые помогут вам оставаться оптимально здоровым.
+<br/><br/> <br/> 
+<strong class="text-4xl capitalize">
+План питания
+</strong>
+<br/><br/>
+Если вы ищете лучшую стратегию значительного улучшения своего здоровья, вы можете найти ее, посетив мой план питания.
+<br/><br/>
+Многие люди сегодня борются с проблемами веса, болезнями и другими проблемами со здоровьем, которые мешают им получать удовольствие от жизни. Многие прибегают к фармацевтическим препаратам и другим традиционным методам, чтобы облегчить симптомы, но на самом деле это всего лишь перевязочные растворы, которые обычно приносят больше вреда, чем пользы.
+<br/><br/>
+Вы не понимаете, что можете значительно улучшить свое здоровье, просто изменив свой рацион и пищевые привычки. И мой план питания поможет вам добиться именно этого.
+<br/><br/> <br/> 
+<strong class="text-4xl capitalize">
+Рецепты
+</strong>
+<br/><br/>
+То, что вы хотите оставаться в форме, не означает, что вы должны есть неаппетитные блюда. Если вы ищете полезные и вкусные рецепты, которые не помешают вашему здоровому питанию, просмотрите «Здоровые рецепты Salutem. От свежих салатов и аппетитных закусок до несладких основных блюд и восхитительных десертов - эта страница содержит разнообразную коллекцию рецептов, которые подойдут для вашего комплексного плана питания. 
+<br/><br/>
+ <br/> 
+<strong class="text-4xl capitalize">
+Фитнес-гиды по улучшению здоровья доктора Мерколы
+</strong>
+<br/><br/>
+Вы можете получить доступ к многочисленным руководствам по тренировкам и советам по здоровью с помощью Fitness Guides to Better Health. От всесторонней йоги до тренировок с ограничением кровотока - эти руководства помогут вам приступить к выбранной вами программе тренировок и изменить ее в зависимости от ваших предпочтений. Вы также получите важные советы и рекомендации о том, как эффективно достичь своих целей в фитнесе.
+<br/><br/>
+ <br/> 
+<strong class="text-4xl capitalize">
+Руководство к упражнениям
+</strong>
+<br/><br/>
+Если вы хотите расширить свои знания о различных типах тренировок, ознакомьтесь с моим Руководством по упражнениям. Эти страницы помогут вам узнать о различных типах тренировок, которые вы можете включить в свой распорядок фитнеса, о том, каковы их преимущества и о том, как правильно их выполнять с использованием подходящего оборудования. С помощью этого ценного ресурса вы сможете оставаться физически активным, чтобы поддерживать свою физическую форму.
 <br/><br/>
 </p>
-</div>
- <div class="container mx-auto">
-      <div class="flex flex-wrap -mx-4">
-        <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
-          <a class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
-          <div class="relative pb-48 overflow-hidden">
-            <img class="absolute inset-0 h-full w-full object-contain" src="{{ site.baseurl }}/img/advanced/abdominal-crunches-with-rotation.gif" alt="">
-          </div>
-          </a>
-          </div> 
-           <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
-           <a class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
-          <div class="relative pb-48 overflow-hidden">
-            <img class="absolute inset-0 h-full w-full object-contain" src="{{ site.baseurl }}/img/advanced/towel-glides-1.gif" alt="">
-          </div>
-          </a>
-          </div>
-           <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
-          <a class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
-          <div class="relative pb-48 overflow-hidden">
-            <img class="absolute inset-0 h-full w-full object-contain" src="{{ site.baseurl }}/img/advanced/goblet-squat.gif" alt="">
-          </div>
-          </a>
-          </div>
-           <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
-          <a class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
-          <div class="relative pb-48 overflow-hidden">
-            <img class="absolute inset-0 h-full w-full object-contain" src="{{ site.baseurl }}/img/advanced/decline-pushup.gif" alt="">
-          </div>
-          </a>
-          </div>
-           <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
-          <a class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
-          <div class="relative pb-48 overflow-hidden">
-            <img class="absolute inset-0 h-full w-full object-contain" src="{{ site.baseurl }}/img/advanced/barbell-bench-press.gif" alt="">
-          </div>
-          </a>
-          </div>
-            <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
-          <a class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
-          <div class="relative pb-48 overflow-hidden">
-            <img class="absolute inset-0 h-full w-full object-contain" src="{{ site.baseurl }}/img/advanced/alternating-unassisted-one-armed-curls.gif" alt="">
-          </div>
-          </a>
-          </div>
-          </div>
-           </div>
-<div class="container mt-8">
-<div class="bg-green-500">
-    <div class="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between flex-wrap">
-        <div class="w-0 flex-1 flex items-center">
-          <p class="text-xl font-bold text-white text-center">
-            <span class="md:flex">
-              Вторник - ИТВИ (18-25 минут) 
-            </span>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div> 
-</div>
-<div class="container mt-8">
-<div class="flex justify-center items-center px-20">
-<p class="text-xl font-bold leading-relaxed">
-<br/><br/>
-Выберите одну из двух опций:
-<br/><br/>
-</p>
-</div>
-</div>
-<div class="flex justify-center items-center px-20">
-<div class="space-x-4"> 
-<div class="inline-block"> 
-<img class="object-contain" src="{{ site.baseurl }}/img/beginner/hiit-on-elliptical-2.gif" alt="">
-</div>
-<div class="inline-block"> 
-<img class="object-contain" src="{{ site.baseurl }}/img/beginner/hiit-on-recumbent-bike.gif" alt="">
-</div>
-</div>
-</div>
-
-<div class="container mt-8">
-<div class="bg-purple-600 mb-4">
-    <div class="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between flex-wrap">
-        <div class="w-0 flex-1 flex items-center">
-          <p class="text-xl font-bold text-white text-center">
-            <span class="md:flex">
-Среда - функциональная тренировка / йога (от 40 до 45 минут)
-            </span>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div> 
-
-<div class="flex justify-center items-center px-20">
-<p class="text-xl font-bold leading-relaxed mt-8">
-Повторите последовательность два раза, выделяя 45 секунд на каждую позу.
-<br/><br/>
-</p>
-</div>
-   <div class="container mx-auto">
-      <div class="flex flex-wrap -mx-4">
-        <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
-          <a class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
-          <div class="relative pb-48 overflow-hidden">
-            <img class="absolute inset-0 h-full w-full object-contain" src="{{ site.baseurl }}/img/advanced/wndmill.gif" alt="">
-          </div>
-          </a>
-          </div> 
-           <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
-           <a class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
-          <div class="relative pb-48 overflow-hidden">
-            <img class="absolute inset-0 h-full w-full object-contain" src="{{ site.baseurl }}/img/advanced/gd-morning.gif" alt="">
-          </div>
-          </a>
-          </div>
-           <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
-          <a class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
-          <div class="relative pb-48 overflow-hidden">
-            <img class="absolute inset-0 h-full w-full object-contain" src="{{ site.baseurl }}/img/advanced/warrior-pose.gif" alt="">
-          </div>
-          </a>
-          </div>
-           <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
-          <a class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
-          <div class="relative pb-48 overflow-hidden">
-            <img class="absolute inset-0 h-full w-full object-contain" src="{{ site.baseurl }}/img/advanced/mountain-pose.gif" alt="">
-          </div>
-          </a>
-          </div>
-           <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
-          <a class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
-          <div class="relative pb-48 overflow-hidden">
-            <img class="absolute inset-0 h-full w-full object-contain" src="{{ site.baseurl }}/img/advanced/triangle-pose.gif" alt="">
-          </div>
-          </a>
-          </div>
-          <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
-          <a class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
-          <div class="relative pb-48 overflow-hidden">
-            <img class="absolute inset-0 h-full w-full object-contain" src="{{ site.baseurl }}/img/advanced/high-lunge-pose.gif" alt="">
-          </div>
-          </a>
-          </div>
-          <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
-          <a class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
-          <div class="relative pb-48 overflow-hidden">
-            <img class="absolute inset-0 h-full w-full object-contain" src="{{ site.baseurl }}/img/advanced/chair-pose.gif" alt="">
-          </div>
-          </a>
-          </div>
-          <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
-          <a class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
-          <div class="relative pb-48 overflow-hidden">
-            <img class="absolute inset-0 h-full w-full object-contain" src="{{ site.baseurl }}/img/advanced/upward-facing-dog.gif" alt="">
-          </div>
-          </a>
-          </div>
-          <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
-          <a class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
-          <div class="relative pb-48 overflow-hidden">
-            <img class="absolute inset-0 h-full w-full object-contain" src="{{ site.baseurl }}/img/advanced/standing-backbend.gif" alt="">
-          </div>
-          </a>
-          </div>
-          <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
-          <a class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
-          <div class="relative pb-48 overflow-hidden">
-            <img class="absolute inset-0 h-full w-full object-contain" src="{{ site.baseurl }}/img/advanced/abductor-assisted-back-extensions.gif" alt="">
-          </div>
-          </a>
-          </div>
-          </div>
-           </div>
-    
-<div class="bg-red-700 mt-16">
-    <div class="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between flex-wrap">
-        <div class="w-0 flex-1 flex items-center">
-          <p class="text-xl font-bold text-white text-center">
-            <span class="md:flex">
-        Четверг - Отдых / Сауна / Медитация
-            </span>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div> 
-  <div class="bg-blue-700 mt-4">
-    <div class="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between flex-wrap">
-        <div class="w-0 flex-1 flex items-center">
-          <p class="text-xl font-bold text-white text-center">
-            <span class="md:flex">
-Пятница - Силовой тренинг, день 2 (от 25 до 30 минут) Опционально
- - Добавьте тренировку с ограничением кровотока
-            </span>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-   <div class="flex justify-center items-center px-20">
-<p class="text-xl font-bold leading-relaxed mt-4">
-Выполните три подхода по 8-12 повторений в каждом:
-  </p>
-</div>
- <div class="container mx-auto">
-      <div class="flex flex-wrap -mx-4">
-        <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
-          <a class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
-          <div class="relative pb-48 overflow-hidden">
-            <img class="absolute inset-0 h-full w-full object-contain" src="{{ site.baseurl }}/img/advanced/bent-over-reverse-fly.gif" alt="">
-          </div>
-          </a>
-          </div> 
-           <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
-           <a class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
-          <div class="relative pb-48 overflow-hidden">
-            <img class="absolute inset-0 h-full w-full object-contain" src="{{ site.baseurl }}/img/advanced/stand-barbell-press.gif" alt="">
-          </div>
-          </a>
-          </div>
-           <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
-          <a class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
-          <div class="relative pb-48 overflow-hidden">
-            <img class="absolute inset-0 h-full w-full object-contain" src="{{ site.baseurl }}/img/advanced/weighted-v-ups.gif" alt="">
-          </div>
-          </a>
-          </div>
-           <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
-          <a class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
-          <div class="relative pb-48 overflow-hidden">
-            <img class="absolute inset-0 h-full w-full object-contain" src="{{ site.baseurl }}/img/advanced/one-armed-dumbbell-row.gif" alt="">
-          </div>
-          </a>
-          </div>
-           <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
-          <a class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
-          <div class="relative pb-48 overflow-hidden">
-            <img class="absolute inset-0 h-full w-full object-contain" src="{{ site.baseurl }}/img/advanced/overhead-triceps-extension-with-resistance-bands.gif" alt="">
-          </div>
-          </a>
-          </div>
-           <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/5 p-4">
-          <a class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
-          <div class="relative pb-48 overflow-hidden">
-            <img class="absolute inset-0 h-full w-full object-contain" src="{{ site.baseurl }}/img/advanced/squats-with-medicine-ball-1.gif" alt="">
-          </div>
-          </a>
-          </div>
-          </div>
-           </div>
-
-
-<div class="bg-green-700 mt-8">
-    <div class="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between flex-wrap">
-        <div class="w-0 flex-1 flex items-center">
-          <p class="text-xl font-bold text-white text-center">
-            <span class="md:flex">
-        Суббота - ИТВИ (18-25 минут)
-            </span>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div> 
- <div class="container mt-8">
-<div class="flex justify-center items-center px-20">
-<p class="text-xl font-bold leading-relaxed">
-<br/><br/>
-Выберите одну из двух опций:
-<br/><br/>
-</p>
-</div>
-</div>
-<div class="flex justify-center items-center px-20">
-<div class="space-x-4"> 
-<div class="inline-block"> 
-<img class="object-contain" src="{{ site.baseurl }}/img/beginner/hiit-on-elliptical-2.gif" alt="">
-</div>
-<div class="inline-block"> 
-<img class="object-contain" src="{{ site.baseurl }}/img/beginner/hiit-on-recumbent-bike.gif" alt="">
-</div>
-</div>
-</div>
-<div class="bg-red-700 mt-4 mb-16">
-    <div class="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between flex-wrap">
-        <div class="w-0 flex-1 flex items-center">
-          <p class="text-xl font-bold text-white text-center">
-            <span class="md:flex">
-        Воскресенье - Отдых / Сауна / Медитация
-            </span>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</div>
 </div>

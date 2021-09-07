@@ -1,6 +1,7 @@
 ---
 layout: fitness
 title:  Воркаут План Для Новичков
+direct: Следующая >
 but: Медиум
 ton:  Интро
 link: medium/intro

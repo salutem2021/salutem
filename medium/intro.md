@@ -1,6 +1,7 @@
 ---
 layout: fitness
 title: Добро Пожаловать На Фитнес-План Среднего Уровня!
+direct: Следующая >
 but: Медиум
 ton: ИТВИ
 link: medium/itvi

@@ -11,18 +11,6 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css rel="
     stylesheet">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-  <script src="https://unpkg.com/stimulus/dist/stimulus.umd.js"></script>
-<script>
-  (() => {
-    const application = Stimulus.Application.start()
-
-    application.register("sidebar", class extends Stimulus.Controller {
-      static get targets() {
-        return [ "" ]
-      }
-    })
-  })()
-</script>
   
   {% seo %}
   {%- if site.google_analytics -%}

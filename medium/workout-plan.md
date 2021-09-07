@@ -1,6 +1,7 @@
 ---
 layout: fitness
 title:  Воркаут План Для Умеренно-Подготовленных
+direct: Следующая >
 but: Продвинутый
 ton:  Интро
 link: advanced/intro

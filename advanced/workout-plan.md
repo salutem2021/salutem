@@ -1,6 +1,7 @@
 ---
 layout: fitness
 title:  Воркаут План Для Умеренно-Подготовленных
+direct: Следующая >
 but: Пост-Воркаут
 ton:  Дни Отдыха
 link: postworkout/rest-days

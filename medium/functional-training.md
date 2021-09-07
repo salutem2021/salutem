@@ -1,6 +1,7 @@
 ---
 layout: fitness
 title:  Функциональная Тренировка
+direct: Следующая >
 but: Медиум
 ton: Силовая Тренировка
 link: medium/strength-training
@@ -26,7 +27,7 @@ link: medium/strength-training
    <br/> 6.  Кошка-Корова
    <br/> 7.  Поза дерева 
 <br/><br/><br/>
-   <strong class="text-4xl">
+   <strong class="text-4xl capitalize">
 Как йога приносит пользу вашему мозгу?
 </strong>
 <br/><br/>
@@ -39,7 +40,7 @@ link: medium/strength-training
      <li class="text-xl font-semibold leading-relaxed">Обеспечить антидепрессивный эффект, который может помочь облегчить симптомы различных проблем с психическим здоровьем.</li>
 <br/><br/>
 <p class="text-xl font-semibold leading-relaxed">
-<strong class="text-2xl">
+<strong class="text-2xl capitalize">
 Йога для лучшего сна
 </strong>
 <br/><br/>
@@ -63,7 +64,7 @@ link: medium/strength-training
      <strong>Шавасана - </strong>часто используемая в качестве завершающей позы, шавасана действует как понижающий регулятор, расслабляя нервную систему и уравновешивая все ваше тело.
 <br/><br/><br/>
      <p class="text-xl font-semibold leading-relaxed">
-     <strong class="text-4xl">
+     <strong class="text-4xl capitalize">
 Добавьте Бодрости в свой шаг, слушая свои любимые мелодии
 </strong>
 <br/><br/>

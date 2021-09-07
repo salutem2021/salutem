@@ -1,6 +1,7 @@
 ---
 layout: fitness
 title:  Функциональная Тренировка
+direct: Следующая >
 but: Новички
 ton: Силовая Тренировка
 link: beginner/strength-training
@@ -11,7 +12,7 @@ link: beginner/strength-training
 <br/><br/>
 Выделите два дня в неделю для функциональных тренировок. На этом уровне вы будете заниматься йогой один день и ходить пешком. Они так же полезны, как и упражнения с высокой интенсивностью и нагрузкой.
 <br/><br/>
-<strong class="text-4xl">
+<strong class="text-4xl capitalize">
 Йога может дать вам здоровый разум и тело
 </strong>
 <br/><br/>
@@ -52,7 +53,7 @@ link: beginner/strength-training
 </li><br/><br/>
 <p class="text-xl font-bold leading-relaxed">
 <br/><br/>
-<strong class="text-4xl">
+<strong class="text-4xl capitalize">
 Как ходьба полезна для вашего здоровья?
 </strong>
 <br/><br/>

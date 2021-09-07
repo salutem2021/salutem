@@ -1,6 +1,7 @@
 ---
 layout: fitness
 title: Добро Пожаловать На Расширенный Фитнес-План!
+direct: Следующая >
 but: Продвинутый
 ton: Силовая Тренировка
 link: advanced/strength-training
