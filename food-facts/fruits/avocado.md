@@ -6,6 +6,8 @@ subtitle1: Botanical Name
 subtitle2: Persea Americana
 image: img/foods/fruits/avocado-nutrition-facts.jpg
 text1: Авокадо приобрел популярность благодаря своему вкусу и универсальности. Гонсало Фернандес де Овьедо, историк группы испанских конкистадоров, впервые рассказал о дереве авокадо, которое приносило плоды той же формы, что и груши, но с кожурой, «похожей на масло, очень вкусной и вкусной». Его отчет был опубликован в «Sumario de la Natural Historia de las Indias» в 1526 году, но авокадо уже много лет используются в Мексике, Центральной Америке и Вест-Индии.
+avatar: img/dash.png
+recipe: img/foods/fruits/avocado-healthy-recipes.jpg
 ---
 
 <section class="mx-auto">
@@ -14,8 +16,8 @@ text1: Авокадо приобрел популярность благодар
  <br/>
   Сегодня Калифорния отвечает за производство почти 90% авокадо в США5, и Калифорнийская комиссия по авокадо подчеркивает, что в штате насчитывается 3000 производителей, выращивающих фрукты на площади 50 000 акров6. 
  </p><br/>
- <p class="text-center text-4xl font-extrabold text-red-700">
- Как приготовить авокадо</p>
+ <hr style="width:10rem"/> <p class="text-center text-4xl font-extrabold text-red-700">
+Как приготовить авокадо </p><hr/>
 <br/>
  <br/>
   <p class="text-indigo-900 text-xl pb-8">
