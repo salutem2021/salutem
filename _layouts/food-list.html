@@ -1,0 +1,126 @@
+{% include head.html %}
+{% include navbar.html %}
+
+<body class="bg-white">
+  {% include ff-hero.html %}
+
+  <main class="py-16 container mx-auto px-6 md:px-0">
+    <section>
+      <h1 class="text-3xl text-center font-bold text-gray-600 mb-10">{{ page.title }} </h1>
+      <div class="antialiased bg-gray-100 text-gray-900 font-sans p-6">
+        <div class="container mx-auto">
+          <div class="flex flex-wrap -mx-4">
+            <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
+              <a href="{{ site.baseurl }}/{{ page.link1 }}"
+                class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
+                <div class="relative pb-48 overflow-hidden">
+                  <img class="absolute inset-0 h-full w-full object-cover"
+                    src="{{ site.baseurl }}/{{ page.food1 }}"
+                    alt="">
+                </div>
+                <div class="p-4">
+                  <h2 class="mt-2 mb-2 text-center font-bold">{{ page.subtitle1 }}</h2>
+                </div>
+              </a>
+            </div>
+
+            <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
+              <a href="{{ site.baseurl }}/{{ page.link2 }}"
+                class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
+                <div class="relative pb-48 overflow-hidden">
+                  <img class="absolute inset-0 h-full w-full object-cover"
+                  src="{{ site.baseurl }}/{{ page.food2 }}" alt="">
+                </div>
+                <div class="p-4">
+                  <h2 class="mt-2 mb-2 text-center font-bold">{{ page.subtitle2 }}</h2>
+
+                </div>
+              </a>
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
+              <a href="{{ site.baseurl }}/{{ page.link3 }}"
+                class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
+                <div class="relative pb-48 overflow-hidden">
+                  <img class="absolute inset-0 h-full w-full object-cover"
+                  src="{{ site.baseurl }}/{{ page.food3 }}"alt="">
+                </div>
+                <div class="p-4">
+
+                  <h2 class="mt-2 mb-2 text-center font-bold">{{ page.subtitle3 }}</h2>
+
+                </div>
+              </a>
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
+              <a href="{{ site.baseurl }}/{{ page.link4 }}"
+                class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
+                <div class="relative pb-48 overflow-hidden">
+                  <img class="absolute inset-0 h-full w-full object-cover"
+                  src="{{ site.baseurl }}/{{ page.food4 }}" alt="">
+                </div>
+                <div class="p-4">
+                  <h2 class="mt-2 mb-2 text-center font-bold">{{ page.subtitle4 }}</h2>
+                </div>
+              </a>
+            </div>
+
+            <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
+              <a href="{{ site.baseurl }}//{{ page.link5 }}"
+                class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
+                <div class="relative pb-48 overflow-hidden">
+                  <img class="absolute inset-0 h-full w-full object-cover"
+                  src="{{ site.baseurl }}/{{ page.food5 }}"alt="">
+                </div>
+                <div class="p-4">
+                  <h2 class="mt-2 mb-2 text-center font-bold">{{ page.subtitle5 }}</h2>
+                </div>
+              </a>
+            </div>
+
+            <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
+              <a href="{{ site.baseurl }}/{{ page.link6 }}"
+                class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
+                <div class="relative pb-48 overflow-hidden">
+                  <img class="absolute inset-0 h-full w-full object-cover"
+                  src="{{ site.baseurl }}/{{ page.food6 }}"  alt="">
+                </div>
+                <div class="p-4">
+                  <h2 class="mt-2 mb-2 text-center font-bold">{{ page.subtitle6 }}</h2>
+                </div>
+              </a>
+            </div>
+
+            <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
+              <a href="{{ site.baseurl }}/{{ page.link7 }}"
+                class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
+                <div class="relative pb-48 overflow-hidden">
+                  <img class="absolute inset-0 h-full w-full object-cover"
+                  src="{{ site.baseurl }}/{{ page.food7 }}"alt="">
+                </div>
+                <div class="p-4">
+                  <h2 class="mt-2 mb-2 text-center font-bold">{{ page.subtitle7 }}</h2>
+                </div>
+              </a>
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
+              <a href="{{ site.baseurl }}/{{ page.link8 }}"
+                class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
+                <div class="relative pb-48 overflow-hidden">
+                  <img class="absolute inset-0 h-full w-full object-cover"
+                  src="{{ site.baseurl }}/{{ page.food8 }}"alt="">
+                </div>
+                <div class="p-4">
+                  <h2 class="mt-2 mb-2 text-center font-bold">{{ page.subtitle8 }}</h2>
+                </div>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+
+{% include footer.html %}
