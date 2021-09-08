@@ -1,7 +1,7 @@
 ---
-layout: new
-title: nov
-description: Факты 
+layout: first-news
+title: 
+description:  
 ---
 
 <div class="columns is-centered">
@@ -86,7 +86,7 @@ description: Факты
                                     <br /> <br />
                                 </div>
                                 <div class="column">
-                                    <img src="../img/brain.jpg" alt="" style="width: 70%;">
+                                    <img src="{{ site.baseurl }}/img/brain.jpg" alt="" style="width: 70%;">
                                 </div>
                             </div>
                             <p class="subtitle is-6">
@@ -226,6 +226,7 @@ description: Факты
 </strong>
 </p>
 <br/>
- {% include book-ad.html %}
 </div>
 </div>
+
+

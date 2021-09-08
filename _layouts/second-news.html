@@ -1,9 +1,8 @@
 
 {% include head.html %}
-
-
-    {% include navbar.html %}
+{% include navbar.html %}
     <hr />
+    <body>
     <div class="columns is-centered">
         <center>
             <h1 class="title">
@@ -17,6 +16,7 @@
 
     <div class="columns is-centered">
         <div class="column is-8-desktop is-10-tablet">
+            
             <div class="content is centered">
                 <p>
                     <center>Проанализировано командой <a href=""> Salutem </a>
@@ -86,13 +86,13 @@
                             некоторых психических и физических состояний.<br /><br />
                             > Одним из основополагающих принципов диеты GAPS является употребление ферментированных
                             продуктов, которые не только легко приготовить дома, но и ароматны и полезны, и которые, как
-                            обнаружили исследователи, могут снизить риск смертности от COVID-19.<br />
+                            обнаружили исследователи, могут снизить риск смертности от COVID-19.            </p>
+                            <br />
                       
                         <br /> <br />
                     </div>
                 </div>
             </div>
-            </p>
             <div class="section">
                 <br /> <br />
                 <p class="subtitle is-5">
@@ -322,10 +322,14 @@
                 </p>
 
             </div>
-
-
-            {% include book-ad.html %}
-
         </div>
     </div>
+    <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+    <script>addBackToTop({
+    diameter: 56,
+    backgroundColor: 'indigo',
+    textColor: '#fff'
+    })</script> 
+    </body>
+    {% include book-ad.html %}
     {% include footer.html %}

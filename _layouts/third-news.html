@@ -1,9 +1,7 @@
-<!doctype html>
-<html>
 {% include head.html %}
+{% include navbar.html %}
 
 <body>
-    {% include navbar.html %}
     <hr />
     <div class="columns is-centered">
         <center>
@@ -331,14 +329,15 @@
                 </p>
             </div>
 
-          
-            {% include book-ad.html %}
-
+        
         </div>
     </div>
+    <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+    <script>addBackToTop({
+    diameter: 56,
+    backgroundColor: 'indigo',
+    textColor: '#fff'
+    })</script> 
+    </body>
+    {% include book-ad.html %}
     {% include footer.html %}
-
-
-</body>
-
-</html>
