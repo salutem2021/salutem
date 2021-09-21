@@ -2,6 +2,7 @@
 layout: fitness
 title: Ставим Цели
 but: Пре-Воркаут
+direct: Следующая >
 ton: Столпы Фитнеса
 description: 
 link: pillars-of-fitness

@@ -1,6 +1,7 @@
 ---
 layout: fitness
 title: Предотвращение Травм
+direct: Следующая >
 but: Новички
 ton: Интро
 link: beginner/intro

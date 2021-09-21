@@ -2,6 +2,7 @@
 layout: fitness
 description: Добро Пожаловать на наш Фитнесс-план!
 title: Начало
+direct: Следующая >
 but: Пре-Воркаут 
 ton: Ставим Цели
 link: setting-goals
