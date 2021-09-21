@@ -3,11 +3,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "salutem"
   spec.version       = "0.5"
-  spec.authors       = ["chrisrhymes"]
-  spec.email         = ["csrhymes@gmail.com"]
-
-  spec.summary       = "Mere is a minimal and simple blog theme, and nothing more, for use with Jekyll and GitHub Pages."
-  spec.homepage      = "https://github.com/chrisrhymes/salutem"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|package|node_modules)!i) }
