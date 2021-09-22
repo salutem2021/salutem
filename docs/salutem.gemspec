@@ -3,6 +3,10 @@
 Gem::Specification.new do |spec|
   spec.name          = "salutem"
   spec.version       = "0.5"
+  spec.authors       = ["Salutem"]
+  spec.email         = ["salutem@gmail.com"]
+  spec.summary       = "salutem"
+  spec.homepage      = "https://salutem2021.github.io/salutem/"
   spec.license       = "MIT"
 
   spec.add_runtime_dependency "jekyll", "~> 4.2.0"
