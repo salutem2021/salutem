@@ -1,0 +1,24 @@
+{
+  "name": "salutem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jekyll"
+  ],
+  "author": "chilli",
+  "license": "MIT",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bulma": "^0.9"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.1",
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.9"
+  }
+}
